@@ -1,0 +1,1601 @@
+[2025-06-01 12:26:47] Filewatcher started
+[2025-06-01 12:26:47] Processwatcher started
+[2025-06-01 12:26:47] USBwatcher started
+[2025-06-01 12:26:47] Networkwatcher started
+Log: INFO
+Time: 2025-06-01 12:27:19
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:19
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:19
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:23
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:23
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:23
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/windows.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:56
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:56
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 12:27:56
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 12:33:08
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 12:33:29
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/linux.rs
+
+Log: INFO
+Time: 2025-06-01 12:33:29
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/linux.rs
+
+Log: INFO
+Time: 2025-06-01 12:33:55
+Type: FileChange
+Details: File created at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 12:33:55
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:09
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:36
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:36
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:36
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:37
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:37
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 12:34:37
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/logger.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:06
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:06
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:06
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:07
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:07
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 19:50:07
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+[2025-06-01 20:10:53] Filewatcher started
+[2025-06-01 20:10:53] Processwatcher started
+[2025-06-01 20:10:53] Networkwatcher started
+[2025-06-01 20:10:53] USBwatcher started
+Log: INFO
+Time: 2025-06-01 20:11:09
+Type: FileChange
+Details: File created at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:11:09
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:12:27
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:12:27
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:12:28
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:12:28
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:12:28
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+[2025-06-01 20:12:47] Processwatcher started
+[2025-06-01 20:12:47] Filewatcher started
+[2025-06-01 20:12:47] Networkwatcher started
+[2025-06-01 20:12:47] USBwatcher started
+Log: INFO
+Time: 2025-06-01 20:13:00
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:13:00
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:13:00
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:13:19
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:13:19
+Type: FileChange
+Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:13:19
+Type: FileChange
+Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+[2025-06-01 20:24:46] Filewatcher started
+[2025-06-01 20:24:46] Processwatcher started
+[2025-06-01 20:24:46] Networkwatcher started
+[2025-06-01 20:24:46] USBwatcher started
+Log: INFO
+Time: 2025-06-01 20:24:54
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+
+Log: INFO
+Time: 2025-06-01 20:25:11
+Type: FileChange
+Details: File with size 0 created at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:11
+Type: FileChange
+Details: File with size 0 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:20
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:20
+Type: FileChange
+Details: File with size 0 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:22
+Type: FileChange
+Details: File with size 8 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:22
+Type: FileChange
+Details: File with size 8 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:23
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:23
+Type: FileChange
+Details: File with size 10 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:23
+Type: FileChange
+Details: File with size 10 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:25
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:25
+Type: FileChange
+Details: File with size 14 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:25
+Type: FileChange
+Details: File with size 14 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:30
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:30
+Type: FileChange
+Details: File with size 28 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:30
+Type: FileChange
+Details: File with size 28 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:34
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:34
+Type: FileChange
+Details: File with size 41 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:25:34
+Type: FileChange
+Details: File with size 41 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+
+Log: INFO
+Time: 2025-06-01 20:45:56
+Type: FileChange
+Details: File with size 1959 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:45:56
+Type: FileChange
+Details: File with size 1959 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:00
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:00
+Type: FileChange
+Details: File with size 1928 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:00
+Type: FileChange
+Details: File with size 1928 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:01
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:01
+Type: FileChange
+Details: File with size 1927 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:01
+Type: FileChange
+Details: File with size 1927 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:10
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:10
+Type: FileChange
+Details: File with size 1945 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:46:10
+Type: FileChange
+Details: File with size 1945 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:32
+Type: FileChange
+Details: File with size 1951 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:33
+Type: FileChange
+Details: File with size 1951 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:34
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:34
+Type: FileChange
+Details: File with size 1952 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:34
+Type: FileChange
+Details: File with size 1952 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:38
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:38
+Type: FileChange
+Details: File with size 1959 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:49:38
+Type: FileChange
+Details: File with size 1959 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:13
+Type: FileChange
+Details: File with size 1987 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:13
+Type: FileChange
+Details: File with size 1987 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:40
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:40
+Type: FileChange
+Details: File with size 1984 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:40
+Type: FileChange
+Details: File with size 1984 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:44
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:44
+Type: FileChange
+Details: File with size 1973 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:44
+Type: FileChange
+Details: File with size 1973 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:48
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:48
+Type: FileChange
+Details: File with size 1970 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:53:48
+Type: FileChange
+Details: File with size 1970 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:22
+Type: FileChange
+Details: File with size 1923 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:22
+Type: FileChange
+Details: File with size 1923 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:33
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:33
+Type: FileChange
+Details: File with size 1919 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:33
+Type: FileChange
+Details: File with size 1919 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:38
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:38
+Type: FileChange
+Details: File with size 1923 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:54:38
+Type: FileChange
+Details: File with size 1923 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:09
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:09
+Type: FileChange
+Details: File with size 2141 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:09
+Type: FileChange
+Details: File with size 2141 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:42
+Type: FileChange
+Details: File with size 2168 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:42
+Type: FileChange
+Details: File with size 2168 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:55:42
+Type: FileChange
+Details: File with size 2168 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:30
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:30
+Type: FileChange
+Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:30
+Type: FileChange
+Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:31
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:31
+Type: FileChange
+Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:31
+Type: FileChange
+Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:40
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:40
+Type: FileChange
+Details: File with size 2178 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:40
+Type: FileChange
+Details: File with size 2178 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:46
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:46
+Type: FileChange
+Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:56:46
+Type: FileChange
+Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:19
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:19
+Type: FileChange
+Details: File with size 2170 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:19
+Type: FileChange
+Details: File with size 2170 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:26
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:26
+Type: FileChange
+Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:26
+Type: FileChange
+Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:28
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:28
+Type: FileChange
+Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:28
+Type: FileChange
+Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:53
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:53
+Type: FileChange
+Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:57:53
+Type: FileChange
+Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:58:10
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:58:10
+Type: FileChange
+Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:58:10
+Type: FileChange
+Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:13
+Type: FileChange
+Details: File with size 2165 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:14
+Type: FileChange
+Details: File with size 2165 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:14
+Type: FileChange
+Details: File with size 2165 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:19
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:19
+Type: FileChange
+Details: File with size 2164 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 20:59:19
+Type: FileChange
+Details: File with size 2164 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:00:25
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:00:26
+Type: FileChange
+Details: File with size 2173 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:00:26
+Type: FileChange
+Details: File with size 2173 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:35
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:35
+Type: FileChange
+Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:35
+Type: FileChange
+Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:39
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:40
+Type: FileChange
+Details: File with size 2049 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:40
+Type: FileChange
+Details: File with size 2049 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:44
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:44
+Type: FileChange
+Details: File with size 2036 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:44
+Type: FileChange
+Details: File with size 2036 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:53
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:53
+Type: FileChange
+Details: File with size 2043 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:53
+Type: FileChange
+Details: File with size 2043 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:55
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:55
+Type: FileChange
+Details: File with size 2044 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:55
+Type: FileChange
+Details: File with size 2044 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:56
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:56
+Type: FileChange
+Details: File with size 2046 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:01:56
+Type: FileChange
+Details: File with size 2046 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:00
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:00
+Type: FileChange
+Details: File with size 2054 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:00
+Type: FileChange
+Details: File with size 2054 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:03
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:03
+Type: FileChange
+Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:03
+Type: FileChange
+Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:05
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:05
+Type: FileChange
+Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:05
+Type: FileChange
+Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:08
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:08
+Type: FileChange
+Details: File with size 2057 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:08
+Type: FileChange
+Details: File with size 2057 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:11
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:11
+Type: FileChange
+Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:11
+Type: FileChange
+Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:17
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:17
+Type: FileChange
+Details: File with size 2070 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:17
+Type: FileChange
+Details: File with size 2070 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:18
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:18
+Type: FileChange
+Details: File with size 2071 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:18
+Type: FileChange
+Details: File with size 2071 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:30
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:30
+Type: FileChange
+Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:02:30
+Type: FileChange
+Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:09
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:09
+Type: FileChange
+Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:09
+Type: FileChange
+Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:22
+Type: FileChange
+Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:22
+Type: FileChange
+Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:25
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:26
+Type: FileChange
+Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:26
+Type: FileChange
+Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:28
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:28
+Type: FileChange
+Details: File with size 2056 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:28
+Type: FileChange
+Details: File with size 2056 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:36
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:36
+Type: FileChange
+Details: File with size 2070 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:36
+Type: FileChange
+Details: File with size 2070 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:38
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:38
+Type: FileChange
+Details: File with size 2080 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:38
+Type: FileChange
+Details: File with size 2080 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:41
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:41
+Type: FileChange
+Details: File with size 2080 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:03:41
+Type: FileChange
+Details: File with size 2080 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:08
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:08
+Type: FileChange
+Details: File with size 2057 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:08
+Type: FileChange
+Details: File with size 2057 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:13
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:13
+Type: FileChange
+Details: File with size 2059 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:13
+Type: FileChange
+Details: File with size 2059 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:15
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:15
+Type: FileChange
+Details: File with size 2066 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:15
+Type: FileChange
+Details: File with size 2066 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:18
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:18
+Type: FileChange
+Details: File with size 2069 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:18
+Type: FileChange
+Details: File with size 2069 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:19
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:19
+Type: FileChange
+Details: File with size 2078 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:20
+Type: FileChange
+Details: File with size 2078 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:30
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:30
+Type: FileChange
+Details: File with size 2079 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:30
+Type: FileChange
+Details: File with size 2079 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:36
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:36
+Type: FileChange
+Details: File with size 2078 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:36
+Type: FileChange
+Details: File with size 2078 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:51
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:51
+Type: FileChange
+Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:51
+Type: FileChange
+Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:57
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:57
+Type: FileChange
+Details: File with size 2119 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:04:57
+Type: FileChange
+Details: File with size 2119 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:05:02
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:05:02
+Type: FileChange
+Details: File with size 2107 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:05:02
+Type: FileChange
+Details: File with size 2107 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:13
+Type: FileChange
+Details: File with size 2086 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:13
+Type: FileChange
+Details: File with size 2086 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:17
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:17
+Type: FileChange
+Details: File with size 2085 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:17
+Type: FileChange
+Details: File with size 2085 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:27
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:27
+Type: FileChange
+Details: File with size 2087 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:27
+Type: FileChange
+Details: File with size 2087 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:30
+Type: FileChange
+Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:30
+Type: FileChange
+Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:30
+Type: FileChange
+Details: File with size 2091 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:31
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:31
+Type: FileChange
+Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:09:31
+Type: FileChange
+Details: File with size 2091 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:30
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:30
+Type: FileChange
+Details: File with size 2138 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:30
+Type: FileChange
+Details: File with size 2138 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:31
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:31
+Type: FileChange
+Details: File with size 2146 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:10:31
+Type: FileChange
+Details: File with size 2146 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:22
+Type: FileChange
+Details: File with size 2137 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:22
+Type: FileChange
+Details: File with size 2137 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:33
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:33
+Type: FileChange
+Details: File with size 2132 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:11:33
+Type: FileChange
+Details: File with size 2132 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:07
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:07
+Type: FileChange
+Details: File with size 2138 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:07
+Type: FileChange
+Details: File with size 2138 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:10
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:10
+Type: FileChange
+Details: File with size 2146 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:10
+Type: FileChange
+Details: File with size 2146 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:16
+Type: FileChange
+Details: File with size 2171 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:16
+Type: FileChange
+Details: File with size 2171 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:16
+Type: FileChange
+Details: File with size 2171 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:45
+Type: FileChange
+Details: File with size 2206 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:45
+Type: FileChange
+Details: File with size 2206 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:45
+Type: FileChange
+Details: File with size 2206 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:50
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:50
+Type: FileChange
+Details: File with size 2216 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:50
+Type: FileChange
+Details: File with size 2216 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:57
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:57
+Type: FileChange
+Details: File with size 2222 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:57
+Type: FileChange
+Details: File with size 2222 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:58
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:58
+Type: FileChange
+Details: File with size 2225 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:12:58
+Type: FileChange
+Details: File with size 2225 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:01
+Type: FileChange
+Details: File with size 2226 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:01
+Type: FileChange
+Details: File with size 2226 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:01
+Type: FileChange
+Details: File with size 2226 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:17
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:17
+Type: FileChange
+Details: File with size 2227 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:17
+Type: FileChange
+Details: File with size 2227 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:22
+Type: FileChange
+Details: File with size 2234 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:22
+Type: FileChange
+Details: File with size 2234 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:34
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:34
+Type: FileChange
+Details: File with size 2241 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:34
+Type: FileChange
+Details: File with size 2241 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:36
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:36
+Type: FileChange
+Details: File with size 2243 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:36
+Type: FileChange
+Details: File with size 2243 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:52
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:52
+Type: FileChange
+Details: File with size 2251 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:53
+Type: FileChange
+Details: File with size 2251 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:55
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:55
+Type: FileChange
+Details: File with size 2269 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:55
+Type: FileChange
+Details: File with size 2269 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:59
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:59
+Type: FileChange
+Details: File with size 2254 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:13:59
+Type: FileChange
+Details: File with size 2254 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:14
+Type: FileChange
+Details: File with size 2256 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:14
+Type: FileChange
+Details: File with size 2256 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:14
+Type: FileChange
+Details: File with size 2256 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:44
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:44
+Type: FileChange
+Details: File with size 2247 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:44
+Type: FileChange
+Details: File with size 2247 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:49
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:50
+Type: FileChange
+Details: File with size 2246 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:15:50
+Type: FileChange
+Details: File with size 2246 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:16:22
+Type: FileChange
+Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:16:22
+Type: FileChange
+Details: File with size 2037 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+
+Log: INFO
+Time: 2025-06-01 21:16:22
+Type: FileChange
+Details: File with size 2037 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+

@@ -1,0 +1,69 @@
+name: Build and Release Loggerheads
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Triggers on version tags like v0.1.0
+
+jobs:
+  build:
+    name: Build for ${{ matrix.target }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target: [
+          x86_64-unknown-linux-gnu,
+          x86_64-pc-windows-msvc,
+          x86_64-apple-darwin
+        ]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: ${{ matrix.target }}
+          override: true
+
+      - name: Build binary
+        run: cargo build --release --target ${{ matrix.target }}
+
+      - name: Rename binary
+        run: |
+          mkdir -p dist
+          BIN_NAME="loggerheads"
+          EXT=""
+          if [[ "${{ matrix.target }}" == *"windows"* ]]; then
+            EXT=".exe"
+          fi
+          cp target/${{ matrix.target }}/release/loggerheads${EXT} dist/loggerheads-${{ matrix.target }}${EXT}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: loggerheads-${{ matrix.target }}
+          path: dist/loggerheads-${{ matrix.target }}*
+  
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: ./artifacts
+
+      - name: List downloaded files
+        run: ls -R ./artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./artifacts/**/*loggerheads*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
