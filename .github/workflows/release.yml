@@ -1,69 +1,93 @@
-name: Build and Release Loggerheads
+name: Release LoggerHeads
 
 on:
   push:
     tags:
-      - 'v*.*.*'  # Triggers on version tags like v0.1.0
+      - 'v*.*.*'
 
 jobs:
-  build:
-    name: Build for ${{ matrix.target }}
+  build-and-release:
+    name: Build and Release Binaries
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        target: [
-          x86_64-unknown-linux-gnu,
-          x86_64-pc-windows-msvc,
-          x86_64-apple-darwin
-        ]
+
+    env:
+      CARGO_TERM_COLOR: always
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1
+        uses: dtolnay/rust-toolchain@stable
         with:
-          toolchain: stable
-          target: ${{ matrix.target }}
-          override: true
+          components: rust-src
 
-      - name: Build binary
-        run: cargo build --release --target ${{ matrix.target }}
+      - name: Install cross
+        run: cargo install cross --locked
 
-      - name: Rename binary
+      - name: Import GPG key
         run: |
-          mkdir -p dist
-          BIN_NAME="loggerheads"
-          EXT=""
-          if [[ "${{ matrix.target }}" == *"windows"* ]]; then
-            EXT=".exe"
-          fi
-          cp target/${{ matrix.target }}/release/loggerheads${EXT} dist/loggerheads-${{ matrix.target }}${EXT}
+          echo "$GPG_PRIVATE_KEY" > private.key
+          gpg --batch --import private.key
+          rm private.key
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: loggerheads-${{ matrix.target }}
-          path: dist/loggerheads-${{ matrix.target }}*
-  
-  release:
-    name: Create GitHub Release
-    needs: build
-    runs-on: ubuntu-latest
+      - name: Build Linux binary
+        run: cross build --release --target x86_64-unknown-linux-gnu
 
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v3
-        with:
-          path: ./artifacts
+      - name: Build Windows binary
+        run: cross build --release --target x86_64-pc-windows-gnu
 
-      - name: List downloaded files
-        run: ls -R ./artifacts
+      - name: Build macOS binary
+        run: cross build --release --target x86_64-apple-darwin
+
+      - name: Package artifacts
+        run: |
+          mkdir dist
+          cp target/x86_64-unknown-linux-gnu/release/loggerheads dist/loggerheads-linux
+          cp target/x86_64-pc-windows-gnu/release/loggerheads.exe dist/loggerheads.exe
+          cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
+
+          cd dist
+          tar -czvf loggerheads-linux.tar.gz loggerheads-linux
+          zip loggerheads-windows.zip loggerheads.exe
+          tar -czvf loggerheads-macos.tar.gz loggerheads-macos
+
+      - name: Sign artifacts
+        run: |
+          cd dist
+          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+            --detach-sign --armor loggerheads-linux.tar.gz
+          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+            --detach-sign --armor loggerheads-windows.zip
+          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+            --detach-sign --armor loggerheads-macos.tar.gz
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./artifacts/**/*loggerheads*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref }}
+          name: "LoggerHeads ${{ github.ref_name }}"
+          body: |
+            🎉 LoggerHeads ${{ github.ref_name }} Released!
+
+            Signed with GPG Key ID: `4A3629C90B57475B`
+            Fingerprint: `FC03 DC68 96CC A0F7 9B56  06BC 4A36 29C9 0B57 475B`
+
+            ## Artifacts
+            - loggerheads-linux.tar.gz
+            - loggerheads-linux.tar.gz.asc
+            - loggerheads-windows.zip
+            - loggerheads-windows.zip.asc
+            - loggerheads-macos.tar.gz
+            - loggerheads-macos.tar.gz.asc
+          files: |
+            dist/loggerheads-linux.tar.gz
+            dist/loggerheads-linux.tar.gz.asc
+            dist/loggerheads-windows.zip
+            dist/loggerheads-windows.zip.asc
+            dist/loggerheads-macos.tar.gz
+            dist/loggerheads-macos.tar.gz.asc

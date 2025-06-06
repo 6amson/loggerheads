@@ -7,10 +7,13 @@ use futures::future::join_all;
 use crate::watchers::start_event_watchers;
 use config::ConfigStruct as Config;
 use logger::logger;
+use clap::Parser;
+mod cli;
 
 #[tokio::main]
 async fn main() {
-    let config = Config::load().expect("Failed to load config");
+    let args = cli::CliArgs::parse();
+    let config = Config::load(&args).expect("Failed to load config");
     let log_writer = logger(&config).expect("Logger failed to initialize");
     
     println!("Starting monitoring watchers...");
@@ -24,8 +27,7 @@ async fn main() {
         let watcher_name = match i {
             0 => "File",
             1 => "Process", 
-            2 => "USB",
-            3 => "Network",
+            2 => "Network",
             _ => "Unknown",
         };
         

@@ -1,1601 +1,4042 @@
-[2025-06-01 12:26:47] Filewatcher started
-[2025-06-01 12:26:47] Processwatcher started
-[2025-06-01 12:26:47] USBwatcher started
-[2025-06-01 12:26:47] Networkwatcher started
+[2025-06-06 13:54:01] Filewatcher started, watching "./src/platform" directory.
+[2025-06-06 13:54:01] Process watcher started (CPU threshold: 10.0%)
+[2025-06-06 13:54:01] Networkwatcher started
+Log: DEBUG
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:52942 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:52928 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:52954 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW UDP CONNECTION | UDP | 10.255.255.254:53 | PID: unknown
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW UDP CONNECTION | UDP | 127.0.0.1:323 | PID: unknown
+
+Log: INFO
+Time: 2025-06-06 13:54:01
+Type: NetworkChange
+Details: NEW UDP CONNECTION | UDP | ::1:323 | PID: unknown
+
+[2025-06-06 13:54:01] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:54:01
+Type: Process
+Details: PID: 726 | CPU: 44.44% | MEM: 664.74 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 13:54:01
+Type: Process
+Details: PID: 6545 | CPU: 18.52% | MEM: 9.50 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:52942 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:52928 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:52954 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:54:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:54:11
+Type: Process
+Details: PID: 6545 | CPU: 21.51% | MEM: 10.12 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:52942 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:52954 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:54:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:54:21
+Type: Process
+Details: PID: 6545 | CPU: 21.39% | MEM: 10.50 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:31
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:52954 -> 140.82.121.6:443 | PID: 726 | State: Established
+
+[2025-06-06 13:54:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:54:31
+Type: Process
+Details: PID: 6545 | CPU: 21.86% | MEM: 10.62 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:54:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:54:41
+Type: Process
+Details: PID: 6545 | CPU: 20.83% | MEM: 10.75 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:54:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:54:51] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:54:51] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:55:01] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:55:01] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:55:11] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:55:11] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:55:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:21
+Type: Process
+Details: PID: 6545 | CPU: 12.97% | MEM: 11.75 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:31
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:33062 -> 13.107.246.56:443 | PID: 726 | State: Established
+
+[2025-06-06 13:55:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:31
+Type: Process
+Details: PID: 6545 | CPU: 22.60% | MEM: 11.88 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:55:41] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:41
+Type: Process
+Details: PID: 6545 | CPU: 16.84% | MEM: 12.00 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:55:41
+Type: Process
+Details: PID: 1100 | CPU: 12.63% | MEM: 310.46 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:55:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:55:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:55:51
+Type: Process
+Details: PID: 6545 | CPU: 12.90% | MEM: 12.12 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:01
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:55162 -> 140.82.113.21:443 | PID: 726 | State: Established
+
+[2025-06-06 13:56:01] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:01
+Type: Process
+Details: PID: 6545 | CPU: 21.86% | MEM: 12.25 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:56:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:11
+Type: Process
+Details: PID: 6545 | CPU: 21.86% | MEM: 12.25 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:56:21] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:56:21] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:56:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:31
+Type: Process
+Details: PID: 6545 | CPU: 13.04% | MEM: 12.30 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:56:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:41
+Type: Process
+Details: PID: 6545 | CPU: 20.83% | MEM: 12.30 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:56:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:56:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:56:51
+Type: Process
+Details: PID: 6545 | CPU: 13.04% | MEM: 12.30 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:57890 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:57:01] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:01
+Type: Process
+Details: PID: 6545 | CPU: 17.68% | MEM: 12.30 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:58638 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:11
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:57890 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+[2025-06-06 13:57:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:11
+Type: Process
+Details: PID: 6545 | CPU: 16.93% | MEM: 12.43 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:57:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:21
+Type: Process
+Details: PID: 6545 | CPU: 17.49% | MEM: 12.55 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:37212 -> 2.23.210.98:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:31
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:58782 -> 2.23.210.103:443 | PID: 1100 | State: Established
+
+[2025-06-06 13:57:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:31
+Type: Process
+Details: PID: 6545 | CPU: 22.60% | MEM: 12.68 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:57:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:57:41] Scanning processes - Found 3 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:41
+Type: Process
+Details: PID: 716 | CPU: 16.93% | MEM: 26.88 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:20 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=fileWatcher
+
+Log: DEBUG
+Time: 2025-06-06 13:57:41
+Type: Process
+Details: PID: 6545 | CPU: 21.16% | MEM: 12.68 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:57:41
+Type: Process
+Details: PID: 714 | CPU: 16.93% | MEM: 26.88 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:20 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=fileWatcher
+
+Log: DEBUG
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
 Log: INFO
-Time: 2025-06-01 12:27:19
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:19
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:19
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:23
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:57:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 13:57:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:57:51
+Type: Process
+Details: PID: 6545 | CPU: 17.39% | MEM: 12.80 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:44548 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:01
+Type: NetworkChange
+Details: NEW UDP CONNECTION | UDP | 10.255.255.254:39396 | PID: 1100
+
+[2025-06-06 13:58:01] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:58:01] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:33478 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: NEW UDP CONNECTION | UDP | 10.255.255.254:44695 | PID: 1100
+
+Log: INFO
+Time: 2025-06-06 13:58:11
+Type: NetworkChange
+Details: CONNECTION CLOSED | UDP | 10.255.255.254:39396 | PID: 1100
+
+[2025-06-06 13:58:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:11
+Type: Process
+Details: PID: 6545 | CPU: 24.49% | MEM: 12.79 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:38326 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:21
+Type: NetworkChange
+Details: CONNECTION CLOSED | UDP | 10.255.255.254:44695 | PID: 1100
+
+[2025-06-06 13:58:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:21
+Type: Process
+Details: PID: 6545 | CPU: 21.98% | MEM: 12.92 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:31
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:38326 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+[2025-06-06 13:58:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:31
+Type: Process
+Details: PID: 6545 | CPU: 32.99% | MEM: 12.91 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:58:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:41
+Type: Process
+Details: PID: 6545 | CPU: 29.17% | MEM: 12.91 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:36198 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:58:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:58:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:58:51
+Type: Process
+Details: PID: 6545 | CPU: 13.33% | MEM: 13.04 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:01
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:36198 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+[2025-06-06 13:59:01] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:59:01
+Type: Process
+Details: PID: 6545 | CPU: 22.22% | MEM: 13.04 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:59:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:59:11
+Type: Process
+Details: PID: 6545 | CPU: 20.62% | MEM: 13.16 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
+
+Log: INFO
+Time: 2025-06-06 13:59:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:59:21] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:59:21] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
+Log: INFO
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
+
 Log: INFO
-Time: 2025-06-01 12:27:23
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 12:27:23
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/windows.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:56
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:56
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:27:56
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:33:08
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:33:29
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/linux.rs
+Time: 2025-06-06 13:59:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 13:59:31] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:59:31] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 12:33:29
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/linux.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 12:33:55
-Type: FileChange
-Details: File created at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 12:33:55
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:34:09
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:34:36
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:34:36
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:34:36
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 12:34:37
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:59:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 13:59:41
+Type: Process
+Details: PID: 6545 | CPU: 21.74% | MEM: 12.98 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 12:34:37
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 12:34:37
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/logger.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 19:50:06
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 19:50:06
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 19:50:06
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 19:50:07
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 19:50:07
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 19:50:07
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 13:59:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 13:59:51] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 13:59:51] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
-[2025-06-01 20:10:53] Filewatcher started
-[2025-06-01 20:10:53] Processwatcher started
-[2025-06-01 20:10:53] Networkwatcher started
-[2025-06-01 20:10:53] USBwatcher started
 Log: INFO
-Time: 2025-06-01 20:11:09
-Type: FileChange
-Details: File created at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:11:09
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:12:27
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:12:27
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:12:28
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:12:28
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:12:28
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
-[2025-06-01 20:12:47] Processwatcher started
-[2025-06-01 20:12:47] Filewatcher started
-[2025-06-01 20:12:47] Networkwatcher started
-[2025-06-01 20:12:47] USBwatcher started
 Log: INFO
-Time: 2025-06-01 20:13:00
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:00:01] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 14:00:01] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:13:00
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:13:00
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:13:19
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:13:19
-Type: FileChange
-Details: File modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:13:19
-Type: FileChange
-Details: File accessed at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
-[2025-06-01 20:24:46] Filewatcher started
-[2025-06-01 20:24:46] Processwatcher started
-[2025-06-01 20:24:46] Networkwatcher started
-[2025-06-01 20:24:46] USBwatcher started
 Log: INFO
-Time: 2025-06-01 20:24:54
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.rs
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:11
-Type: FileChange
-Details: File with size 0 created at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:11
-Type: FileChange
-Details: File with size 0 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:00:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:11
+Type: Process
+Details: PID: 6545 | CPU: 21.74% | MEM: 13.11 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:25:20
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:25:20
-Type: FileChange
-Details: File with size 0 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:25:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:22
-Type: FileChange
-Details: File with size 8 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:22
-Type: FileChange
-Details: File with size 8 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:23
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:23
-Type: FileChange
-Details: File with size 10 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:23
-Type: FileChange
-Details: File with size 10 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:00:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:21
+Type: Process
+Details: PID: 6545 | CPU: 21.74% | MEM: 13.23 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:25:25
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:25:25
-Type: FileChange
-Details: File with size 14 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:25:25
-Type: FileChange
-Details: File with size 14 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:30
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:30
-Type: FileChange
-Details: File with size 28 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:30
-Type: FileChange
-Details: File with size 28 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:34
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:25:34
-Type: FileChange
-Details: File with size 41 modified at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:00:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:31
+Type: Process
+Details: PID: 6545 | CPU: 21.62% | MEM: 13.23 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:25:34
-Type: FileChange
-Details: File with size 41 accessed at /home/bunmi/loggerheads/./src/platform/yes.json
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:45:56
-Type: FileChange
-Details: File with size 1959 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:45:56
-Type: FileChange
-Details: File with size 1959 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:00
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:00
-Type: FileChange
-Details: File with size 1928 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:00
-Type: FileChange
-Details: File with size 1928 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:01
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:01
-Type: FileChange
-Details: File with size 1927 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:00:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:41
+Type: Process
+Details: PID: 6545 | CPU: 21.28% | MEM: 13.23 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:46:01
-Type: FileChange
-Details: File with size 1927 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:46:10
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:46:10
-Type: FileChange
-Details: File with size 1945 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:46:10
-Type: FileChange
-Details: File with size 1945 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:49:32
-Type: FileChange
-Details: File with size 1951 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:49:33
-Type: FileChange
-Details: File with size 1951 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:49:34
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:49:34
-Type: FileChange
-Details: File with size 1952 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:00:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:00:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:00:51
+Type: Process
+Details: PID: 6545 | CPU: 24.37% | MEM: 13.36 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:49:34
-Type: FileChange
-Details: File with size 1952 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:49:38
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:49:38
-Type: FileChange
-Details: File with size 1959 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:49:38
-Type: FileChange
-Details: File with size 1959 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:13
-Type: FileChange
-Details: File with size 1987 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:13
-Type: FileChange
-Details: File with size 1987 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:40
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:40
-Type: FileChange
-Details: File with size 1984 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:01:01] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:01:01
+Type: Process
+Details: PID: 6545 | CPU: 16.75% | MEM: 13.16 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:53:40
-Type: FileChange
-Details: File with size 1984 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:53:44
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:53:44
-Type: FileChange
-Details: File with size 1973 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:44
-Type: FileChange
-Details: File with size 1973 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:48
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:48
-Type: FileChange
-Details: File with size 1970 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:53:48
-Type: FileChange
-Details: File with size 1970 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:01:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:01:11
+Type: Process
+Details: PID: 6545 | CPU: 12.70% | MEM: 13.28 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:54:22
-Type: FileChange
-Details: File with size 1923 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:54:22
-Type: FileChange
-Details: File with size 1923 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:54:33
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:33
-Type: FileChange
-Details: File with size 1919 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:33
-Type: FileChange
-Details: File with size 1919 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:38
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:38
-Type: FileChange
-Details: File with size 1923 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:54:38
-Type: FileChange
-Details: File with size 1923 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:01:21] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 14:01:21] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 20:55:09
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:55:09
-Type: FileChange
-Details: File with size 2141 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:55:09
-Type: FileChange
-Details: File with size 2141 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:55:42
-Type: FileChange
-Details: File with size 2168 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:55:42
-Type: FileChange
-Details: File with size 2168 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:55:42
-Type: FileChange
-Details: File with size 2168 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:30
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:30
-Type: FileChange
-Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:01:31] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 14:01:31] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:56:30
-Type: FileChange
-Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:56:31
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:56:31
-Type: FileChange
-Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:31
-Type: FileChange
-Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:40
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:40
-Type: FileChange
-Details: File with size 2178 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:40
-Type: FileChange
-Details: File with size 2178 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:56:46
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:01:41] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:01:41
+Type: Process
+Details: PID: 6545 | CPU: 14.55% | MEM: 13.08 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:56:46
-Type: FileChange
-Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:56:46
-Type: FileChange
-Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:57:19
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:19
-Type: FileChange
-Details: File with size 2170 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:19
-Type: FileChange
-Details: File with size 2170 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:26
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:26
-Type: FileChange
-Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:26
-Type: FileChange
-Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:01:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:01:51] Scanning processes - Found 0 above 10.0% CPU threshold
+[2025-06-06 14:01:51] No processes found above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 20:57:28
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:57:28
-Type: FileChange
-Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:57:28
-Type: FileChange
-Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:53
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:53
-Type: FileChange
-Details: File with size 2169 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:57:53
-Type: FileChange
-Details: File with size 2169 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:58:10
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: NEW CONNECTION | TCP | 172.17.88.223:47820 -> 71.18.129.228:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:58:10
-Type: FileChange
-Details: File with size 2174 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:58:10
-Type: FileChange
-Details: File with size 2174 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:02:01] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:01
+Type: Process
+Details: PID: 6545 | CPU: 25.11% | MEM: 13.07 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 20:59:13
-Type: FileChange
-Details: File with size 2165 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:59:14
-Type: FileChange
-Details: File with size 2165 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 20:59:14
-Type: FileChange
-Details: File with size 2165 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:59:19
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:59:19
-Type: FileChange
-Details: File with size 2164 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 20:59:19
-Type: FileChange
-Details: File with size 2164 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:00:25
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:00:26
-Type: FileChange
-Details: File with size 2173 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:00:26
-Type: FileChange
-Details: File with size 2173 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:11
+Type: NetworkChange
+Details: CONNECTION CLOSED | TCP | 172.17.88.223:47820 -> 71.18.129.228:443 | PID: 1100 | State: Established
+
+[2025-06-06 14:02:11] Scanning processes - Found 5 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: Process
+Details: PID: 6545 | CPU: 28.19% | MEM: 13.20 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: Process
+Details: PID: 1158 | CPU: 10.57% | MEM: 314.65 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: Process
+Details: PID: 673 | CPU: 10.57% | MEM: 53.00 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:17 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=378829920-1529439629-2094540460-1690162785 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: Process
+Details: PID: 671 | CPU: 17.62% | MEM: 53.00 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:17 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=378829920-1529439629-2094540460-1690162785 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+
+Log: DEBUG
+Time: 2025-06-06 14:02:11
+Type: Process
+Details: PID: 1100 | CPU: 10.57% | MEM: 314.65 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:01:35
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:01:35
-Type: FileChange
-Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:01:35
-Type: FileChange
-Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:39
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:40
-Type: FileChange
-Details: File with size 2049 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:40
-Type: FileChange
-Details: File with size 2049 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:44
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:44
-Type: FileChange
-Details: File with size 2036 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:02:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:21
+Type: Process
+Details: PID: 726 | CPU: 22.22% | MEM: 695.11 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:01:44
-Type: FileChange
-Details: File with size 2036 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:01:53
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:01:53
-Type: FileChange
-Details: File with size 2043 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:53
-Type: FileChange
-Details: File with size 2043 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:55
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:55
-Type: FileChange
-Details: File with size 2044 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:55
-Type: FileChange
-Details: File with size 2044 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:01:56
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:02:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:31
+Type: Process
+Details: PID: 6545 | CPU: 22.33% | MEM: 13.32 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:01:56
-Type: FileChange
-Details: File with size 2046 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:01:56
-Type: FileChange
-Details: File with size 2046 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:00
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:00
-Type: FileChange
-Details: File with size 2054 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:00
-Type: FileChange
-Details: File with size 2054 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:03
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:03
-Type: FileChange
-Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:03
-Type: FileChange
-Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:02:41] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:41
+Type: Process
+Details: PID: 1158 | CPU: 11.43% | MEM: 314.90 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:02:41
+Type: Process
+Details: PID: 6545 | CPU: 30.48% | MEM: 13.32 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:02:05
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:05
-Type: FileChange
-Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:05
-Type: FileChange
-Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:08
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:08
-Type: FileChange
-Details: File with size 2057 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:08
-Type: FileChange
-Details: File with size 2057 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:11
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:11
-Type: FileChange
-Details: File with size 2055 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:02:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:02:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:02:51
+Type: Process
+Details: PID: 6545 | CPU: 25.40% | MEM: 13.32 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:02:11
-Type: FileChange
-Details: File with size 2055 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:17
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:17
-Type: FileChange
-Details: File with size 2070 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:17
-Type: FileChange
-Details: File with size 2070 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:18
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:18
-Type: FileChange
-Details: File with size 2071 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:18
-Type: FileChange
-Details: File with size 2071 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:02:30
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:03:01] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:01
+Type: Process
+Details: PID: 6545 | CPU: 16.93% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:03:01
+Type: Process
+Details: PID: 726 | CPU: 88.89% | MEM: 715.33 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:02:30
-Type: FileChange
-Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:02:30
-Type: FileChange
-Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:03:09
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:09
-Type: FileChange
-Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:09
-Type: FileChange
-Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:22
-Type: FileChange
-Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:22
-Type: FileChange
-Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:03:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:11
+Type: Process
+Details: PID: 6545 | CPU: 31.68% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:03:25
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:03:26
-Type: FileChange
-Details: File with size 2053 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:03:26
-Type: FileChange
-Details: File with size 2053 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:28
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:28
-Type: FileChange
-Details: File with size 2056 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:28
-Type: FileChange
-Details: File with size 2056 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:36
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:36
-Type: FileChange
-Details: File with size 2070 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:03:21] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:21
+Type: Process
+Details: PID: 6545 | CPU: 42.55% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:03:21
+Type: Process
+Details: PID: 6864 | CPU: 17.02% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:54:00 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:03:36
-Type: FileChange
-Details: File with size 2070 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:03:38
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:03:38
-Type: FileChange
-Details: File with size 2080 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:38
-Type: FileChange
-Details: File with size 2080 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:41
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:41
-Type: FileChange
-Details: File with size 2080 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:03:41
-Type: FileChange
-Details: File with size 2080 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:08
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:03:31] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:31
+Type: Process
+Details: PID: 6545 | CPU: 30.42% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:03:31
+Type: Process
+Details: PID: 1158 | CPU: 12.17% | MEM: 314.96 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:04:08
-Type: FileChange
-Details: File with size 2057 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:08
-Type: FileChange
-Details: File with size 2057 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:13
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:13
-Type: FileChange
-Details: File with size 2059 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:13
-Type: FileChange
-Details: File with size 2059 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:15
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:15
-Type: FileChange
-Details: File with size 2066 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:15
-Type: FileChange
-Details: File with size 2066 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:03:41] Scanning processes - Found 4 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:41
+Type: Process
+Details: PID: 726 | CPU: 28.83% | MEM: 717.57 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:03:41
+Type: Process
+Details: PID: 6545 | CPU: 32.43% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:03:41
+Type: Process
+Details: PID: 1100 | CPU: 14.41% | MEM: 314.98 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:03:41
+Type: Process
+Details: PID: 1158 | CPU: 14.41% | MEM: 314.98 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
 
+Log: DEBUG
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:04:18
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:18
-Type: FileChange
-Details: File with size 2069 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:18
-Type: FileChange
-Details: File with size 2069 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:19
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:19
-Type: FileChange
-Details: File with size 2078 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:20
-Type: FileChange
-Details: File with size 2078 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:30
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:30
-Type: FileChange
-Details: File with size 2079 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:03:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:03:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:03:51
+Type: Process
+Details: PID: 6545 | CPU: 35.82% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:04:30
-Type: FileChange
-Details: File with size 2079 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:36
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:36
-Type: FileChange
-Details: File with size 2078 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:36
-Type: FileChange
-Details: File with size 2078 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:51
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:51
-Type: FileChange
-Details: File with size 2176 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:51
-Type: FileChange
-Details: File with size 2176 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:04:57
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:04:01] Scanning processes - Found 3 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:01
+Type: Process
+Details: PID: 6545 | CPU: 30.13% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:04:01
+Type: Process
+Details: PID: 1158 | CPU: 10.04% | MEM: 316.02 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:04:01
+Type: Process
+Details: PID: 1100 | CPU: 10.04% | MEM: 316.02 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:04:57
-Type: FileChange
-Details: File with size 2119 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:04:57
-Type: FileChange
-Details: File with size 2119 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:05:02
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:05:02
-Type: FileChange
-Details: File with size 2107 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:05:02
-Type: FileChange
-Details: File with size 2107 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:13
-Type: FileChange
-Details: File with size 2086 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:13
-Type: FileChange
-Details: File with size 2086 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:17
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:04:11] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:11
+Type: Process
+Details: PID: 6545 | CPU: 24.78% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:09:17
-Type: FileChange
-Details: File with size 2085 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:09:17
-Type: FileChange
-Details: File with size 2085 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:09:27
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:27
-Type: FileChange
-Details: File with size 2087 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:27
-Type: FileChange
-Details: File with size 2087 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:30
-Type: FileChange
-Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:30
-Type: FileChange
-Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:09:30
-Type: FileChange
-Details: File with size 2091 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:04:21] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:21
+Type: Process
+Details: PID: 6545 | CPU: 25.40% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 
+Log: DEBUG
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:09:31
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:09:31
-Type: FileChange
-Details: File with size 2091 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:09:31
-Type: FileChange
-Details: File with size 2091 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:10:30
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:10:30
-Type: FileChange
-Details: File with size 2138 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:10:30
-Type: FileChange
-Details: File with size 2138 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:10:31
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:10:31
-Type: FileChange
-Details: File with size 2146 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:04:31] Scanning processes - Found 4 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:31
+Type: Process
+Details: PID: 6485 | CPU: 10.43% | MEM: 43.98 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:45:16 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 33959 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+Log: DEBUG
+Time: 2025-06-06 14:04:31
+Type: Process
+Details: PID: 6872 | CPU: 10.43% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:54:00 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:04:31
+Type: Process
+Details: PID: 6482 | CPU: 13.91% | MEM: 43.98 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:45:15 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 33959 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+Log: DEBUG
+Time: 2025-06-06 14:04:31
+Type: Process
+Details: PID: 6545 | CPU: 41.74% | MEM: 13.45 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:10:31
-Type: FileChange
-Details: File with size 2146 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:11:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:11:22
-Type: FileChange
-Details: File with size 2137 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:11:22
-Type: FileChange
-Details: File with size 2137 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:11:33
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:11:33
-Type: FileChange
-Details: File with size 2132 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:11:33
-Type: FileChange
-Details: File with size 2132 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:07
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:04:41] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:41
+Type: Process
+Details: PID: 6545 | CPU: 36.67% | MEM: 13.57 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:04:41
+Type: Process
+Details: PID: 1158 | CPU: 10.00% | MEM: 319.59 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:12:07
-Type: FileChange
-Details: File with size 2138 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:07
-Type: FileChange
-Details: File with size 2138 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:10
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:10
-Type: FileChange
-Details: File with size 2146 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:10
-Type: FileChange
-Details: File with size 2146 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:16
-Type: FileChange
-Details: File with size 2171 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:16
-Type: FileChange
-Details: File with size 2171 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:16
-Type: FileChange
-Details: File with size 2171 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:04:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:04:51] Scanning processes - Found 3 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:04:51
+Type: Process
+Details: PID: 1100 | CPU: 10.86% | MEM: 320.29 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
 
+Log: DEBUG
+Time: 2025-06-06 14:04:51
+Type: Process
+Details: PID: 6545 | CPU: 25.34% | MEM: 13.57 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:04:51
+Type: Process
+Details: PID: 726 | CPU: 18.10% | MEM: 717.17 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:12:45
-Type: FileChange
-Details: File with size 2206 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:45
-Type: FileChange
-Details: File with size 2206 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:45
-Type: FileChange
-Details: File with size 2206 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:50
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:50
-Type: FileChange
-Details: File with size 2216 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:50
-Type: FileChange
-Details: File with size 2216 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:57
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:57
-Type: FileChange
-Details: File with size 2222 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:01
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:05:01] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:01
+Type: Process
+Details: PID: 1158 | CPU: 10.48% | MEM: 321.00 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
 
+Log: DEBUG
+Time: 2025-06-06 14:05:01
+Type: Process
+Details: PID: 6545 | CPU: 20.96% | MEM: 13.57 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:12:57
-Type: FileChange
-Details: File with size 2222 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:58
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:12:58
-Type: FileChange
-Details: File with size 2225 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:12:58
-Type: FileChange
-Details: File with size 2225 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:01
-Type: FileChange
-Details: File with size 2226 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:01
-Type: FileChange
-Details: File with size 2226 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:01
-Type: FileChange
-Details: File with size 2226 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:17
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:11
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:05:11] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:11
+Type: Process
+Details: PID: 6545 | CPU: 43.05% | MEM: 13.44 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:05:11
+Type: Process
+Details: PID: 726 | CPU: 14.35% | MEM: 682.80 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
 
+Log: DEBUG
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:13:17
-Type: FileChange
-Details: File with size 2227 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:17
-Type: FileChange
-Details: File with size 2227 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:22
-Type: FileChange
-Details: File with size 2234 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:22
-Type: FileChange
-Details: File with size 2234 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:34
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:34
-Type: FileChange
-Details: File with size 2241 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:34
-Type: FileChange
-Details: File with size 2241 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:21
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:05:21] Scanning processes - Found 2 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:21
+Type: Process
+Details: PID: 726 | CPU: 10.48% | MEM: 682.67 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:05:21
+Type: Process
+Details: PID: 6545 | CPU: 31.44% | MEM: 13.56 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
 
 Log: INFO
-Time: 2025-06-01 21:13:36
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:36
-Type: FileChange
-Details: File with size 2243 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:36
-Type: FileChange
-Details: File with size 2243 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:52
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:52
-Type: FileChange
-Details: File with size 2251 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:53
-Type: FileChange
-Details: File with size 2251 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:55
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:55
-Type: FileChange
-Details: File with size 2269 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:31
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
 
+[2025-06-06 14:05:31] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:31
+Type: Process
+Details: PID: 6545 | CPU: 21.39% | MEM: 13.56 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:13:55
-Type: FileChange
-Details: File with size 2269 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:59
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:13:59
-Type: FileChange
-Details: File with size 2254 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:13:59
-Type: FileChange
-Details: File with size 2254 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:14
-Type: FileChange
-Details: File with size 2256 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:14
-Type: FileChange
-Details: File with size 2256 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:14
-Type: FileChange
-Details: File with size 2256 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:44
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:41
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:05:41] Scanning processes - Found 5 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: Process
+Details: PID: 730 | CPU: 10.53% | MEM: 682.54 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: Process
+Details: PID: 1158 | CPU: 10.53% | MEM: 324.53 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:18 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
 
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: Process
+Details: PID: 6545 | CPU: 38.60% | MEM: 13.56 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
+
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: Process
+Details: PID: 726 | CPU: 21.05% | MEM: 682.54 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:56:21 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-06 14:05:41
+Type: Process
+Details: PID: 1100 | CPU: 10.53% | MEM: 324.53 MB | USER: uid:Uid(1000) | START: 2025-06-06 12:57:05 | CMD: /home/bunmi/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: DEBUG
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: Failed to create datalink channel: Operation not permitted (os error 1)
+
 Log: INFO
-Time: 2025-06-01 21:15:44
-Type: FileChange
-Details: File with size 2247 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 0.0.0.0:0 | PID: 671 | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:15:44
-Type: FileChange
-Details: File with size 2247 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 10.255.255.254:53 -> 0.0.0.0:0 | PID: unknown | State: Listen
 
 Log: INFO
-Time: 2025-06-01 21:15:49
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:39178 -> 2.23.210.87:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:50
-Type: FileChange
-Details: File with size 2246 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:52266 | PID: 726 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:15:50
-Type: FileChange
-Details: File with size 2246 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:52266 -> 127.0.0.1:33959 | PID: 6491 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:16:22
-Type: FileChange
-Details: File with size 0 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 172.17.88.223:34420 -> 2.23.210.82:443 | PID: 1100 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:16:22
-Type: FileChange
-Details: File with size 2037 modified at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:33959 -> 127.0.0.1:54510 | PID: 671 | State: Established
 
 Log: INFO
-Time: 2025-06-01 21:16:22
-Type: FileChange
-Details: File with size 2037 accessed at /home/bunmi/loggerheads/./src/platform/utils.rs
+Time: 2025-06-06 14:05:51
+Type: NetworkChange
+Details: SUSTAINED CONNECTION | TCP | 127.0.0.1:54510 -> 127.0.0.1:33959 | PID: 6482 | State: Established
+
+[2025-06-06 14:05:51] Scanning processes - Found 1 above 10.0% CPU threshold
+Log: DEBUG
+Time: 2025-06-06 14:05:51
+Type: Process
+Details: PID: 6545 | CPU: 13.11% | MEM: 13.56 MB | USER: uid:Uid(1000) | START: 2025-06-06 13:53:20 | CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 10 --cpu-threshold 10
 

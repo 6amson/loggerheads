@@ -1,56 +1,67 @@
 use crate::{
-    config::ConfigStruct, logger::write_log, logger::LogWriter, platform::utils::current_timestamp,
+    config::ConfigStruct,
+    logger::write_log,
+    logger::LogWriter,
+    platform::types::{EventType, LogEvent, LogLevel},
+    platform::utils::current_timestamp,
+    platform::utils::format_log_event,
+    platform::utils::gather_process_info,
 };
+use tokio::time::{interval, Duration};
 
 pub async fn watch(config: ConfigStruct, writer: LogWriter) {
-    // Simulate an event
-    let msg = format!("[{}] Processwatcher started", current_timestamp());
+    let msg = format!(
+        "[{}] Process watcher started (CPU threshold: {:.1}%)",
+        current_timestamp(),
+        config.cpu_threshold
+    );
     write_log(&writer, &msg).await;
-    // Add real logic later
 
-    use crate::{
-        config::ConfigStruct,
-        logger::LogWriter,
-        platform::{
-            logger::write_log,
-            types::{EventType, LogEvent, LogLevel},
-            utils::{current_timestamp, format_log_event, gather_process_info},
-        },
-    };
-    use tokio::time::{interval, Duration};
+    let mut ticker = interval(Duration::from_secs(config.interval));
 
-    const CPU_THRESHOLD: f32 = 10.0; // only log processes above 10% CPU
+    loop {
+        ticker.tick().await;
 
-    pub async fn watch(config: ConfigStruct, writer: LogWriter) {
-        let msg = format!(
-            "[{}] Process watcher started (CPU > {:.1}%)",
+        let processes = gather_process_info(&config.cpu_threshold);
+
+        // Debug: Log how many processes we found
+        let debug_msg = format!(
+            "[{}] Scanning processes - Found {} above {:.1}% CPU threshold",
             current_timestamp(),
-            CPU_THRESHOLD
+            processes.len(),
+            config.cpu_threshold
         );
-        write_log(&writer, &msg).await;
+        write_log(&writer, &debug_msg).await;
 
-        let mut ticker = interval(Duration::from_secs(5));
-
-        loop {
-            ticker.tick().await;
-
-            let processes = gather_process_info(CPU_THRESHOLD);
-            for (pid, (cpu, mem, cmd, user, start_time)) in processes.iter() {
-                let details = format!(
-                    "PID: {} | CPU: {:.2}% | MEM: {:.2} MB | USER: {} | START: {} | CMD: {}",
-                    pid, cpu, mem, user, start_time, cmd
-                );
-
-                let event = LogEvent { level: (), event_type: (), timestamp: (), details: (), process_info: () } {
-                    level: LogLevel::INFO,
-                    event_type: EventType::Process,
-                    timestamp: current_timestamp(),
-                    details,
-                };
-
-                let formatted = format_log_event(&config, &event);
-                write_log(&writer, &formatted).await;
-            }
+        if processes.is_empty() {
+            // Log that no high-CPU processes were found
+            let no_process_msg = format!(
+                "[{}] No processes found above {:.1}% CPU threshold",
+                current_timestamp(),
+                config.cpu_threshold
+            );
+            write_log(&writer, &no_process_msg).await;
+            continue;
         }
+
+        for (pid, (cpu, mem, cmd, user, start_time)) in processes.iter() {
+            let details = format!(
+                "PID: {} | CPU: {:.2}% | MEM: {:.2} MB | USER: {} | START: {} | CMD: {}",
+                pid, cpu, mem, user, start_time, cmd
+            );
+
+            let log_event = LogEvent {
+                level: LogLevel::DEBUG,
+                event_type: EventType::Process,
+                timestamp: current_timestamp(),
+                details,
+            };
+
+            let formatted = format_log_event(&config, &log_event);
+            write_log(&writer, &formatted).await;
+        }
+
+        // Add a small delay to prevent overwhelming the logs
+        tokio::time::sleep(Duration::from_millis(100)).await;
     }
 }

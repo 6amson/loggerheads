@@ -1,10 +1,10 @@
 // src/types.rs
 use serde::{Deserialize, Serialize};
+use clap::{ValueEnum};
 
 #[derive(Debug, Serialize, Deserialize)]
 pub enum EventType {
-    ProcessStart,
-    UsbConnect,
+    Process,
     NetworkChange,
     FileChange,
 }
@@ -13,7 +13,6 @@ pub enum EventType {
 pub enum LogLevel {
     INFO,
     DEBUG,
-    WARN,
     ERROR,
 }
 
@@ -23,5 +22,10 @@ pub struct LogEvent {
     pub event_type: EventType,
     pub timestamp: String,
     pub details: String,
-    pub process_info: String,
+}
+
+#[derive(Debug, Clone, Deserialize, ValueEnum)]
+pub enum LogFormat {
+    Json,
+    Plaintext,
 }

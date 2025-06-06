@@ -1,6 +1,6 @@
 // src/logger.rs
 use crate::config::ConfigStruct;
-use std::{fs::OpenOptions, io::Write, path::PathBuf, sync::Arc};
+use std::{fs::OpenOptions, io::Write,sync::Arc};
 use tokio::sync::Mutex;
 
 pub type LogWriter = Arc<Mutex<dyn Write + Send + Sync>>;
@@ -14,7 +14,7 @@ pub fn logger(config: &ConfigStruct) -> std::io::Result<LogWriter> {
         .create(true)
         .append(true)
         .open(log_path)?;
-    Ok(Arc::new(Mutex::new(file)))
+    Ok(Arc::new(Mutex::new(file))) 
 }
 
 pub async fn write_log(writer: &LogWriter, message: &str) {
