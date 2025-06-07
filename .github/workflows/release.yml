@@ -106,6 +106,7 @@
 #             dist/loggerheads-macos.tar.gz
 #             dist/loggerheads-macos.tar.gz.asc
 
+
 name: Release LoggerHeads
 
 on:
@@ -119,9 +120,6 @@ permissions:
 
 env:
   CARGO_TERM_COLOR: always
-
-  name: Install target
-  run: rustup target add x86_64-apple-darwin
 
 jobs:
   build-linux:
@@ -160,6 +158,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
+      - name: Add macOS target
+        run: rustup target add x86_64-apple-darwin
       - run: cargo build --release --target x86_64-apple-darwin
       - run: mkdir dist && cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
       - run: tar -czvf dist/loggerheads-macos.tar.gz -C dist loggerheads-macos
@@ -208,6 +208,5 @@ jobs:
             gpg --verify <file>.asc <file>
             ```
           files: dist/**/*
-
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
