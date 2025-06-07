@@ -94,7 +94,7 @@
 #             ```bash
 #             # Import the public key
 #             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
-            
+
 #             # Verify a signature (example for Linux)
 #             gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
 #             ```
@@ -106,14 +106,12 @@
 #             dist/loggerheads-macos.tar.gz
 #             dist/loggerheads-macos.tar.gz.asc
 
-
-
 name: Release LoggerHeads
 
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*.*.*"
 
 permissions:
   contents: write
@@ -121,6 +119,9 @@ permissions:
 
 env:
   CARGO_TERM_COLOR: always
+
+  name: Install target
+  run: rustup target add x86_64-apple-darwin
 
 jobs:
   build-linux:
