@@ -1603,3 +1603,2925 @@ Time: 2025-06-07 22:52:00
 Type: NetworkWatch
 Details: NEW TCP CONNECTION | TCP | 172.17.88.223:50646 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
 
+[2025-06-07 22:52:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:52:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.94% | MEM: 574.27 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:52:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 22.35% | MEM: 11.00 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:52:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:50628 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39028 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 146.19.236.196 -> 172.17.88.223
+TCP: 146.19.236.196:443 -> 172.17.88.223:37978 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36492 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58492 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59190 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59908 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36498 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59182 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36508 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59202 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58480 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:52:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58494 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+[2025-06-07 22:53:00] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:53:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 97.24% | MEM: 589.94 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:53:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.84% | MEM: 589.94 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:53:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 22.10% | MEM: 11.12 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:53:00
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 39.78% | MEM: 892.51 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: DEBUG
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER UDP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> ff:ff:ff:ff:ff:ff
+IP: 172.17.80.1 -> 172.17.95.255
+UDP: 172.17.80.1:57621 -> 172.17.95.255:57621
+Length: 86 bytes
+
+Log: DEBUG
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:58116 (flags: 0x12)
+Length: 66 bytes
+
+Log: DEBUG
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:58116 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41610 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44714 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44708 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41624 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44704 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51456 -> 71.18.103.243:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46016 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 22:53:30] Scanning processes - Found 3 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:53:30
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 13.33% | MEM: 619.82 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:53:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.89% | MEM: 619.82 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:53:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.33% | MEM: 11.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41638 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59924 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46002 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59912 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46034 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35234 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48474 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34026 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34042 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48234 -> 41.90.74.49:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35246 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46044 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46036 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34034 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:53:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46022 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 22:54:00] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:54:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.56% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: DEBUG
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:42716 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58588 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48488 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48494 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58578 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45450 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48482 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58594 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45446 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45434 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 22:54:30] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:54:30
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 8.79% | MEM: 628.44 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:54:30
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 8.79% | MEM: 896.69 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 22:54:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 8.79% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:54:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.79% | MEM: 628.44 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 22:54:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58098 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:54104 -> 2.23.210.104:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58318 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47774 -> 13.107.5.93:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57936 -> 146.19.236.196:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55872 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58124 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58110 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:54118 -> 2.23.210.104:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:37620 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:37614 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55876 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39378 -> 71.18.103.243:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55874 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40206 -> 2.16.8.179:443 | PID: 15451 | State: Established
+
+[2025-06-07 22:55:00] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:55:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 9.25% | MEM: 588.54 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:55:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 23.12% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58138 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:37610 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34496 -> 2.23.210.98:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 22:54:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:37594 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46152 -> 71.18.45.193:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57078 -> 146.19.236.195:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52202 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:38822 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52220 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:38800 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52206 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58326 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58346 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35258 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58360 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:38812 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58372 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:38792 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58330 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: DEBUG
+Time: 2025-06-07 22:55:00
+Type: NetworkWatch
+Details: Network Monitor Status | Active connections: 319 | Iteration: 10
+
+[2025-06-07 22:55:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:55:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 9.30% | MEM: 585.79 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:55:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.95% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44936 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44952 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35294 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35270 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35260 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48388 -> 140.82.121.5:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53656 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53678 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34454 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44940 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48390 -> 140.82.121.5:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35292 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53666 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35284 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52146 -> 13.107.246.56:443 | PID: 15311 | State: Established
+
+[2025-06-07 22:56:00] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:56:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 41.38% | MEM: 585.21 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:56:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 9.20% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:56:00
+Type: ProcessWatch
+Details: PID: 15453 | CPU: 9.20% | MEM: 585.21 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:56:00
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 32.18% | MEM: 895.23 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: INFO
+Time: 2025-06-07 22:55:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48374 -> 140.82.121.5:443 | PID: 15311 | State: Established
+
+Log: DEBUG
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:42734 (flags: 0x12)
+Length: 66 bytes
+
+Log: DEBUG
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:42734 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34468 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39428 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42282 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34474 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39414 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46678 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34472 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46674 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46692 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41556 -> 71.18.103.243:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW UDP CONNECTION | UDP | 10.255.255.254:55311 | PID: 15451
+
+Log: INFO
+Time: 2025-06-07 22:56:00
+Type: NetworkWatch
+Details: NEW UDP CONNECTION | UDP | 10.255.255.254:33744 | PID: 15311
+
+[2025-06-07 22:56:30] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:56:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.48% | MEM: 11.38 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:43328 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42338 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42316 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42336 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42310 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42330 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:43314 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42320 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39602 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:43346 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58380 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42296 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58368 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58390 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58378 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:43338 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58408 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58402 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58382 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:56:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58376 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 22:57:00] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:57:00
+Type: ProcessWatch
+Details: PID: 74159 | CPU: 9.04% | MEM: 11.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:57:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 9.04% | MEM: 585.65 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:57:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 9.04% | MEM: 585.65 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:57:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 22.60% | MEM: 11.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: DEBUG
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 146.19.236.196 -> 172.17.88.223
+TCP: 146.19.236.196:443 -> 172.17.88.223:49866 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39622 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56946 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56910 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56962 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42664 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56930 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39610 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39608 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60046 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39618 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42680 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42662 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42668 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60044 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 22:57:30] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:57:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 9.52% | MEM: 586.64 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56956 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42658 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56916 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.4.241 -> 172.17.88.223
+TCP: 71.18.4.241:443 -> 172.17.88.223:55268 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41118 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59914 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59868 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60056 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59908 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60066 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41104 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47586 -> 13.107.5.93:443 | PID: unknown | State: TimeWait
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59880 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41090 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60048 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41106 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59894 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59884 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60070 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59852 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47758 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60052 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41122 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41134 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41100 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:57:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59928 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 22:58:00] Scanning processes - Found 3 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:58:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 12.83% | MEM: 586.84 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:58:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 21.39% | MEM: 11.88 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:58:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.56% | MEM: 586.84 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56572 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47778 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47782 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56516 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51774 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56568 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34560 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51790 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51764 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56532 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56546 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58446 -> 84.53.132.56:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51792 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51744 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56556 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:54394 -> 72.247.155.89:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51732 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51716 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47800 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51800 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47792 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56540 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56508 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51748 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47762 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 22:58:30] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:58:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 9.20% | MEM: 11.88 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: DEBUG
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NON-IPv4 PACKET | Eth: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19 | Type: EtherType(2054) | Length: 42
+
+Log: DEBUG
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NON-IPv4 PACKET | Eth: 00:15:5d:1f:4e:19 -> 00:15:5d:68:d7:73 | Type: EtherType(2054) | Length: 42
+
+Log: DEBUG
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 71.18.139.224 -> 172.17.88.223
+TCP: 71.18.139.224:443 -> 172.17.88.223:44620 (flags: 0x12)
+Length: 66 bytes
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46412 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52462 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34584 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46468 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52452 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52458 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46396 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35374 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34564 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46432 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46416 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34592 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34580 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52464 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35358 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46446 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52442 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 22:59:00] Scanning processes - Found 7 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15500 | CPU: 24.37% | MEM: 8.28 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:45
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/github.vscode-github-actions-0.27.2/dist/server-node.js --node-ipc --clientProcessId=15311
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15316 | CPU: 20.30% | MEM: 897.69 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.12% | MEM: 587.24 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 20.30% | MEM: 11.88 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 109.64% | MEM: 897.69 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 36.55% | MEM: 587.24 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 22:59:00
+Type: ProcessWatch
+Details: PID: 15410 | CPU: 32.49% | MEM: 8.23 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:34
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=15311
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46452 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:58:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51888 -> 71.18.129.228:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39950 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49800 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39966 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35436 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35384 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35424 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39980 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58962 -> 71.18.103.243:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39962 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49808 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49816 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33568 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39986 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39952 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49818 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49834 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35422 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49850 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 22:59:30] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 22:59:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 8.99% | MEM: 11.88 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35412 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35400 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52668 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58444 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33576 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33632 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58470 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47076 -> 146.19.236.196:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35712 -> 146.19.236.196:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33652 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33606 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41864 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33640 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52720 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58460 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52636 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41848 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33616 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33592 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52678 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52652 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52694 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58442 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58480 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52622 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 23:00:00] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:00:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 17.39% | MEM: 11.88 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52606 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:33590 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 22:59:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:52710 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39680 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39730 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36548 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41918 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36540 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36598 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41878 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41916 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41888 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39706 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57514 -> 41.90.74.17:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41912 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39738 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39720 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36568 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36582 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41898 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58972 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39694 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58970 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36614 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41892 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36558 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:00:00
+Type: NetworkWatch
+Details: Network Monitor Status | Active connections: 301 | Iteration: 20
+
+[2025-06-07 23:00:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:00:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 22.60% | MEM: 12.12 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:00:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 13.56% | MEM: 589.35 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59004 -> 71.18.139.224:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:50348 -> 84.53.132.56:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53602 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41086 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41030 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58998 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41056 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58990 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42858 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41060 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42880 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41104 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41016 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42870 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41074 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41096 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58974 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42866 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42860 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41046 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 23:01:00] Scanning processes - Found 3 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:01:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.41% | MEM: 12.12 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:01:00
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 8.94% | MEM: 906.25 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 23:01:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 13.41% | MEM: 590.12 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58984 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:00:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:41120 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51098 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53622 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51022 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51070 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53618 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40452 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51086 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53644 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40508 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53624 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44248 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44264 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40464 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40502 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40494 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40544 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53630 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40460 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51054 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40536 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51076 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53626 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40480 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 23:01:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:01:30
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 9.04% | MEM: 590.53 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 23:01:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 22.60% | MEM: 12.12 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51034 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51038 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40522 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:51092 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44274 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56338 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56212 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56224 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56394 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56362 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56378 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56210 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56194 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56240 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56198 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44302 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56220 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56354 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56200 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47484 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44310 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56232 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56402 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44326 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44286 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 23:02:00] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:02:00
+Type: ProcessWatch
+Details: PID: 74160 | CPU: 8.47% | MEM: 12.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:02:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 21.16% | MEM: 12.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56376 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56350 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:01:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56352 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER UDP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 01:00:5e:7f:ff:fa
+IP: 172.17.80.1 -> 239.255.255.250
+UDP: 172.17.80.1:59936 -> 239.255.255.250:1900
+Length: 212 bytes
+
+Log: DEBUG
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NON-IPv4 PACKET | Eth: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19 | Type: EtherType(2054) | Length: 42
+
+Log: DEBUG
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NON-IPv4 PACKET | Eth: 00:15:5d:1f:4e:19 -> 00:15:5d:68:d7:73 | Type: EtherType(2054) | Length: 42
+
+Log: DEBUG
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER UDP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 01:00:5e:7f:ff:fa
+IP: 172.17.80.1 -> 239.255.255.250
+UDP: 172.17.80.1:59936 -> 239.255.255.250:1900
+Length: 212 bytes
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46034 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45974 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55066 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47538 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55084 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55076 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34196 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47568 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47530 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55052 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46048 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55102 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57598 -> 84.53.132.56:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:43630 -> 84.53.132.56:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55110 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47552 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45980 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47500 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46056 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47528 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55126 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55158 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45994 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55142 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46004 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45988 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 23:02:30] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:02:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 8.89% | MEM: 12.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:55090 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46020 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47514 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 01:00:5e:7f:ff:fa
+IP: 172.17.80.1 -> 239.255.255.250
+UDP: 172.17.80.1:59936 -> 239.255.255.250:1900
+Length: 212 bytes
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34250 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39244 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39240 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46606 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39276 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34228 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39224 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34200 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53358 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53386 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39212 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53368 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34220 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53348 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46610 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34238 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39248 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53378 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:53370 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39262 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34206 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39206 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:02:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34256 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+[2025-06-07 23:03:00] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:03:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 13.64% | MEM: 12.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:03:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 9.09% | MEM: 595.14 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46648 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40598 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46632 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49406 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40636 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46616 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40612 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:40626 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46624 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45730 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+[2025-06-07 23:03:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:03:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 8.89% | MEM: 12.25 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:03:30
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 8.89% | MEM: 901.77 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46662 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46664 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:46620 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:03:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:60510 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:03:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45746 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 23:04:00] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:04:00
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 41.88% | MEM: 901.97 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 23:04:00
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.38% | MEM: 603.38 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 23:04:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 8.38% | MEM: 12.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:04:00
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 8.38% | MEM: 603.38 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 23:03:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:56528 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 13.107.5.93 -> 172.17.88.223
+TCP: 13.107.5.93:443 -> 172.17.88.223:47774 (flags: 0x10)
+Length: 54 bytes
+
+Log: DEBUG
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER TCP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 00:15:5d:1f:4e:19
+IP: 13.107.5.93 -> 172.17.88.223
+TCP: 13.107.5.93:443 -> 172.17.88.223:47774 (flags: 0x11)
+Length: 54 bytes
+
+Log: DEBUG
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW DEVICE DETECTED OVER UDP-PACKET | Ethernet: 00:15:5d:68:d7:73 -> 01:00:5e:7f:ff:fa
+IP: 172.17.80.1 -> 239.255.255.250
+UDP: 172.17.80.1:62269 -> 239.255.255.250:1900
+Length: 212 bytes
+
+Log: INFO
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34386 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+[2025-06-07 23:04:30] Scanning processes - Found 2 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:04:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 21.86% | MEM: 12.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:04:30
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 34.97% | MEM: 904.94 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: INFO
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34396 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:54828 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:04:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:45734 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: DEVICE LEFT THE NETWORK | Ethernet: 00:15:5d:68:d7:73 -> 01:00:5e:7f:ff:fa
+IP: 172.17.80.1 -> 239.255.255.250
+UDP: 172.17.80.1:62269 -> 239.255.255.250:1900
+Length: 212 bytes
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:39054 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59564 -> 2.23.210.98:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:32958 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36104 -> 146.19.236.189:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:59938 -> 2.23.210.87:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:04:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49342 -> 71.18.129.228:443 | PID: 15451 | State: Established
+
+[2025-06-07 23:05:00] Scanning processes - Found 1 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:05:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 23.53% | MEM: 12.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-07 23:05:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:37722 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36036 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36054 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: DEBUG
+Time: 2025-06-07 23:05:00
+Type: NetworkWatch
+Details: Network Monitor Status | Active connections: 22 | Iteration: 30
+
+[2025-06-07 23:05:30] Scanning processes - Found 5 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-07 23:05:30
+Type: ProcessWatch
+Details: PID: 15311 | CPU: 73.51% | MEM: 912.11 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:22
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node --dns-result-order=ipv4first /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+
+Log: WARN
+Time: 2025-06-07 23:05:30
+Type: ProcessWatch
+Details: PID: 15469 | CPU: 17.30% | MEM: 624.62 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 23:05:30
+Type: ProcessWatch
+Details: PID: 15451 | CPU: 51.89% | MEM: 624.62 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:37
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-07 23:05:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 12.97% | MEM: 12.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-07 23:05:30
+Type: ProcessWatch
+Details: PID: 15467 | CPU: 8.65% | MEM: 624.62 MB
+USER: uid:Uid(1000) | START: 2025-06-07 15:52:40
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47978 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57830 -> 20.250.119.64:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47998 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:49624 -> 140.82.121.5:443 | PID: unknown | State: FinWait1
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58850 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47970 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47994 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:57832 -> 20.250.119.64:443 | PID: 15311 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36418 -> 84.53.132.56:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:50888 -> 2.23.210.98:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58812 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58852 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58820 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58830 -> 71.18.139.224:443 | PID: 15451 | State: Established
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58838 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:44152 -> 84.53.132.56:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58772 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47988 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:58784 -> 71.18.139.224:443 | PID: 15451 | State: SynSent
+
+Log: INFO
+Time: 2025-06-07 23:05:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:47964 -> 71.18.139.224:443 | PID: 15311 | State: SynSent
+

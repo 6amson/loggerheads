@@ -1,3 +1,113 @@
+# name: Release LoggerHeads
+
+# on:
+#   push:
+#     tags:
+#       - 'v*.*.*'
+
+# jobs:
+#   build-and-release:
+#     name: Build and Release Binaries
+#     runs-on: ubuntu-latest
+
+#     env:
+#       CARGO_TERM_COLOR: always
+
+#     permissions:
+#       contents: write  # Required for creating releases
+#       packages: read
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
+
+#       - name: Install Rust toolchain
+#         uses: dtolnay/rust-toolchain@stable
+#         with:
+#           components: rust-src
+
+#       - name: Install cross
+#         run: cargo install cross --locked
+
+#       - name: Import GPG key
+#         run: |
+#           echo "$GPG_PRIVATE_KEY" > private.key
+#           gpg --batch --import private.key
+#           rm private.key
+#         env:
+#           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+
+#       - name: Build Linux binary
+#         run: cross build --release --target x86_64-unknown-linux-gnu
+
+#       - name: Build Windows binary
+#         run: cross build --release --target x86_64-pc-windows-gnu
+
+#       - name: Build macOS binary
+#         run: cross build --release --target x86_64-apple-darwin
+
+#       - name: Package artifacts
+#         run: |
+#           mkdir dist
+#           cp target/x86_64-unknown-linux-gnu/release/loggerheads dist/loggerheads-linux
+#           cp target/x86_64-pc-windows-gnu/release/loggerheads.exe dist/loggerheads.exe
+#           cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
+
+#           cd dist
+#           tar -czvf loggerheads-linux.tar.gz loggerheads-linux
+#           zip loggerheads-windows.zip loggerheads.exe
+#           tar -czvf loggerheads-macos.tar.gz loggerheads-macos
+
+#       - name: Sign artifacts
+#         run: |
+#           cd dist
+#           echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+#             --detach-sign --armor loggerheads-linux.tar.gz
+#           echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+#             --detach-sign --armor loggerheads-windows.zip
+#           echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
+#             --detach-sign --armor loggerheads-macos.tar.gz
+#         env:
+#           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+
+#       - name: Create GitHub Release
+#         uses: softprops/action-gh-release@v2
+#         with:
+#           tag_name: ${{ github.ref }}
+#           name: "LoggerHeads ${{ github.ref_name }}"
+#           body: |
+#             🎉 LoggerHeads ${{ github.ref_name }} Released!
+
+#             Signed with GPG Key ID: `4A3629C90B57475B`
+#             Fingerprint: `FC03 DC68 96CC A0F7 9B56  06BC 4A36 29C9 0B57 475B`
+
+#             ## Artifacts
+#             - loggerheads-linux.tar.gz
+#             - loggerheads-linux.tar.gz.asc
+#             - loggerheads-windows.zip
+#             - loggerheads-windows.zip.asc
+#             - loggerheads-macos.tar.gz
+#             - loggerheads-macos.tar.gz.asc
+
+#             ## Verification
+#             To verify the signatures:
+#             ```bash
+#             # Import the public key
+#             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
+            
+#             # Verify a signature (example for Linux)
+#             gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
+#             ```
+#           files: |
+#             dist/loggerheads-linux.tar.gz
+#             dist/loggerheads-linux.tar.gz.asc
+#             dist/loggerheads-windows.zip
+#             dist/loggerheads-windows.zip.asc
+#             dist/loggerheads-macos.tar.gz
+#             dist/loggerheads-macos.tar.gz.asc
+
+
+
 name: Release LoggerHeads
 
 on:
@@ -5,31 +115,68 @@ on:
     tags:
       - 'v*.*.*'
 
+permissions:
+  contents: write
+  packages: read
+
+env:
+  CARGO_TERM_COLOR: always
+
 jobs:
-  build-and-release:
-    name: Build and Release Binaries
+  build-linux:
+    name: Build Linux Binary
     runs-on: ubuntu-latest
-
-    env:
-      CARGO_TERM_COLOR: always
-
-    permissions:
-      contents: write  # Required for creating releases
-      packages: read
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo install cross --locked
+      - run: cross build --release --target x86_64-unknown-linux-gnu
+      - run: mkdir dist && cp target/x86_64-unknown-linux-gnu/release/loggerheads dist/loggerheads-linux
+      - run: tar -czvf dist/loggerheads-linux.tar.gz -C dist loggerheads-linux
+      - uses: actions/upload-artifact@v4
         with:
-          components: rust-src
+          name: linux
+          path: dist/*
 
-      - name: Install cross
-        run: cargo install cross --locked
+  build-windows:
+    name: Build Windows Binary
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo install cross --locked
+      - run: cross build --release --target x86_64-pc-windows-gnu
+      - run: mkdir dist && cp target/x86_64-pc-windows-gnu/release/loggerheads.exe dist/loggerheads.exe
+      - run: zip -j dist/loggerheads-windows.zip dist/loggerheads.exe
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: dist/*
 
-      - name: Import GPG key
+  build-macos:
+    name: Build macOS Binary
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo build --release --target x86_64-apple-darwin
+      - run: mkdir dist && cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
+      - run: tar -czvf dist/loggerheads-macos.tar.gz -C dist loggerheads-macos
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          path: dist/*
+
+  release:
+    name: Create GitHub Release
+    needs: [build-linux, build-windows, build-macos]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+
+      - name: Import GPG Key
         run: |
           echo "$GPG_PRIVATE_KEY" > private.key
           gpg --batch --import private.key
@@ -37,38 +184,9 @@ jobs:
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
 
-      - name: Build Linux binary
-        run: cross build --release --target x86_64-unknown-linux-gnu
-
-      - name: Build Windows binary
-        run: cross build --release --target x86_64-pc-windows-gnu
-
-      - name: Build macOS binary
-        run: cross build --release --target x86_64-apple-darwin
-
-      - name: Package artifacts
+      - name: Sign Artifacts
         run: |
-          mkdir dist
-          cp target/x86_64-unknown-linux-gnu/release/loggerheads dist/loggerheads-linux
-          cp target/x86_64-pc-windows-gnu/release/loggerheads.exe dist/loggerheads.exe
-          cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
-
-          cd dist
-          tar -czvf loggerheads-linux.tar.gz loggerheads-linux
-          zip loggerheads-windows.zip loggerheads.exe
-          tar -czvf loggerheads-macos.tar.gz loggerheads-macos
-
-      - name: Sign artifacts
-        run: |
-          cd dist
-          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
-            --detach-sign --armor loggerheads-linux.tar.gz
-          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
-            --detach-sign --armor loggerheads-windows.zip
-          echo "$GPG_PASSPHRASE" | gpg --batch --yes --passphrase-fd 0 \
-            --detach-sign --armor loggerheads-macos.tar.gz
-        env:
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          find dist -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -79,29 +197,16 @@ jobs:
             🎉 LoggerHeads ${{ github.ref_name }} Released!
 
             Signed with GPG Key ID: `4A3629C90B57475B`
-            Fingerprint: `FC03 DC68 96CC A0F7 9B56  06BC 4A36 29C9 0B57 475B`
 
             ## Artifacts
-            - loggerheads-linux.tar.gz
-            - loggerheads-linux.tar.gz.asc
-            - loggerheads-windows.zip
-            - loggerheads-windows.zip.asc
-            - loggerheads-macos.tar.gz
-            - loggerheads-macos.tar.gz.asc
+            - Linux, Windows, macOS binaries + signatures
 
-            ## Verification
-            To verify the signatures:
+            ## Verify
             ```bash
-            # Import the public key
             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
-            
-            # Verify a signature (example for Linux)
-            gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
+            gpg --verify <file>.asc <file>
             ```
-          files: |
-            dist/loggerheads-linux.tar.gz
-            dist/loggerheads-linux.tar.gz.asc
-            dist/loggerheads-windows.zip
-            dist/loggerheads-windows.zip.asc
-            dist/loggerheads-macos.tar.gz
-            dist/loggerheads-macos.tar.gz.asc
+          files: dist/**/*
+
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
