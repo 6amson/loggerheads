@@ -13,6 +13,10 @@ jobs:
     env:
       CARGO_TERM_COLOR: always
 
+    permissions:
+      contents: write  # Required for creating releases
+      packages: read
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -67,7 +71,7 @@ jobs:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref }}
           name: "LoggerHeads ${{ github.ref_name }}"
@@ -84,6 +88,16 @@ jobs:
             - loggerheads-windows.zip.asc
             - loggerheads-macos.tar.gz
             - loggerheads-macos.tar.gz.asc
+
+            ## Verification
+            To verify the signatures:
+            ```bash
+            # Import the public key
+            gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
+            
+            # Verify a signature (example for Linux)
+            gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
+            ```
           files: |
             dist/loggerheads-linux.tar.gz
             dist/loggerheads-linux.tar.gz.asc
