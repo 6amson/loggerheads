@@ -1,7 +1,6 @@
-
 // cli.rs
 use crate::platform::{types::LogFormat, utils::default_root_dir};
-use clap::{Parser};
+use clap::Parser;
 
 #[derive(Parser, Debug)]
 #[command(name = "loggerheads")]
@@ -19,4 +18,7 @@ pub struct CliArgs {
 
     #[arg(long, default_value_t = 10.0)]
     pub cpu_threshold: f32,
+
+    #[arg(long, short = 'i', default_value = "eth0")]
+    pub interface: String,
 }

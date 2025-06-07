@@ -14,7 +14,7 @@ pub fn logger(config: &ConfigStruct) -> std::io::Result<LogWriter> {
         .create(true)
         .append(true)
         .open(log_path)?;
-    Ok(Arc::new(Mutex::new(file))) 
+    Ok(Arc::new(Mutex::new(file)))
 }
 
 pub async fn write_log(writer: &LogWriter, message: &str) {

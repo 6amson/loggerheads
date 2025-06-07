@@ -39,10 +39,10 @@ pub async fn watch(config_struct: ConfigStruct, writer: LogWriter) {
         match res {
             Ok(event) => {
                 let event_type = match event.kind {
-                    EventKind::Create(_) => EventType::FileChange,
-                    EventKind::Modify(_) => EventType::FileChange,
-                    EventKind::Remove(_) => EventType::FileChange,
-                    EventKind::Access(_) => EventType::FileChange,
+                    EventKind::Create(_) => EventType::FileWatch,
+                    EventKind::Modify(_) => EventType::FileWatch,
+                    EventKind::Remove(_) => EventType::FileWatch,
+                    EventKind::Access(_) => EventType::FileWatch,
                     _ => {
                         println!("⏭️  Skipping event type: {:?}", event.kind);
                         continue;
@@ -80,7 +80,7 @@ pub async fn watch(config_struct: ConfigStruct, writer: LogWriter) {
             Err(e) => {
                 let error_event = LogEvent {
                     level: LogLevel::ERROR,
-                    event_type: EventType::FileChange,
+                    event_type: EventType::FileWatch,
                     timestamp: current_timestamp(),
                     details: format!("File watcher error: {}", e),
                 };

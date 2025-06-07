@@ -46,13 +46,15 @@ pub async fn watch(config: ConfigStruct, writer: LogWriter) {
 
         for (pid, (cpu, mem, cmd, user, start_time)) in processes.iter() {
             let details = format!(
-                "PID: {} | CPU: {:.2}% | MEM: {:.2} MB | USER: {} | START: {} | CMD: {}",
+                "PID: {} | CPU: {:.2}% | MEM: {:.2} MB\n\
+                 USER: {} | START: {}\n\
+                 CMD: {}",
                 pid, cpu, mem, user, start_time, cmd
             );
 
             let log_event = LogEvent {
-                level: LogLevel::DEBUG,
-                event_type: EventType::Process,
+                level: LogLevel::WARN,
+                event_type: EventType::ProcessWatch,
                 timestamp: current_timestamp(),
                 details,
             };

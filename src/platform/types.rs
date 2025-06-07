@@ -4,9 +4,9 @@ use clap::{ValueEnum};
 
 #[derive(Debug, Serialize, Deserialize)]
 pub enum EventType {
-    Process,
-    NetworkChange,
-    FileChange,
+    ProcessWatch,
+    NetworkWatch,
+    FileWatch,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -14,6 +14,7 @@ pub enum LogLevel {
     INFO,
     DEBUG,
     ERROR,
+    WARN,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
