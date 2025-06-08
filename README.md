@@ -1,145 +1,139 @@
-# loggerHeads
+# 🐗 LoggerHeads
 
-> Cross-platform system activity logger and watcher built in Rust.
-
-loggerHeads is a lightweight, extensible system monitoring tool for developers, sysadmins, and power users. It logs system-level activities in real-time including file changes, process activity, USB events, and network interface updates.
+**LoggerHeads** is a blazing-fast, cross-platform system monitoring and logging tool written in Rust. It monitors file changes, processes, USB devices, network activity, and even raw packets — all configurable and logged in real-time. Perfect for auditing, security monitoring, or diagnostics.
 
 ---
 
-## Features
+## 📦 Download
 
-### 🔍 File Watcher
+Get the latest release from the [Releases Page](https://github.com/YOUR_USERNAME/loggerheads/releases/latest).
 
-* Watches directories recursively
-* Detects and logs:
+| Platform | Standalone Binary | Compressed Archive | Size |
+|----------|-------------------|-------------------|------|
+| 🐧 Linux  | `loggerheads-linux` (2.71 MB)   | `loggerheads-linux.tar.gz` (1.04 MB)    |
+| 🍎 macOS  | `loggerheads-macos` (2.15 MB)   | `loggerheads-macos.tar.gz` (911 KB)     |
+| 🪟 Windows| `loggerheads.exe` (8.94 MB)     | `loggerheads-windows.zip` (2.77 MB)     |
 
-  * File creation
-  * Modification
-  * Deletion
-  * Access
+### Additional Downloads Available:
+- **Source Code**: Available as `.zip` or `.tar.gz` 
+- **GPG Signatures**: Each binary/archive has a corresponding `.asc` signature file
+- **SHA256 Checksums**: Provided for all files for integrity verification
 
-### ⚙️ Process Watcher
-
-* Monitors running processes
-* Logs:
-
-  * CPU usage (with optional threshold filter)
-  * Memory usage
-  * Process command
-  * Start time
-  * Owning user
-
-### 🔌 USB Watcher
-
-* Detects and logs:
-
-  * Device insertions
-  * Device removals
-
-### 🌐 Network Watcher
-
-* Logs network interface changes:
-
-  * Interface up/down
-  * IP address changes
-
-### 📅 Flexible Logging
-
-* Supports multiple formats:
-
-  * Plaintext
-  * JSON
-  * CSV
-
-### 🔧 Cross-Platform Support
-
-* Linux
-* macOS
-* Windows
+> **💡 Tip**: Download the compressed archives to save bandwidth, or grab the standalone binaries for immediate use.
 
 ---
 
-## Getting Started
+## ✅ Verify Signature (Optional but Recommended)
 
-### Prerequisites
+LoggerHeads binaries are GPG signed for security.
 
-* Rust (latest stable)
-* Cargo
+- **GPG Key ID**: `4A3629C90B57475B`
+- **Email**: `damilolasamson.ds@gmail.com`
+- **Fingerprint**: `FC03 DC68 96CC A0F7 9B56 06BC 4A36 29C9 0B57 475B`
 
-### Build and Run
+### Verification Steps:
+```bash
+# Import the public key
+gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
+
+# Verify (example for Linux)
+gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
+```
+
+---
+
+## 🚀 Extract & Run
+
+### 🐧 Linux
+```bash
+tar -xzf loggerheads-linux.tar.gz
+chmod +x loggerheads-linux
+./loggerheads-linux --help
+```
+
+### 🍎 macOS
+```bash
+tar -xzf loggerheads-macos.tar.gz
+chmod +x loggerheads-macos
+./loggerheads-macos --help
+```
+
+### 🪟 Windows (PowerShell)
+```powershell
+Expand-Archive -Path loggerheads-windows.zip -DestinationPath .
+.\loggerheads.exe --help
+```
+Or just double-click `loggerheads.exe` to run.
+
+---
+
+## ⚙️ Command Line Usage
 
 ```bash
-# Clone repo
-$ git clone https://github.com/yourname/loggerHeads.git
-$ cd loggerHeads
+loggerheads-[platform] [OPTIONS]
+```
 
-# Run (debug mode)
-$ cargo run
+### Options
 
-# Build for release
-$ cargo build --release
-$ ./target/release/loggerHeads
+| Option | Description |
+|--------|-------------|
+| `--log-path` | Path to store logs (default: `./logs`) |
+| `--interval` | Monitoring interval in seconds (default: `10`) |
+| `--cpu-threshold` | CPU usage % to trigger alerts |
+| `--watcher-dir` | Directory to monitor for file changes |
+| `--log-format` | Format to use: `json` or `text` |
+
+### Example
+```bash
+./loggerheads-linux \
+  --log-path ./logs \
+  --interval 5 \
+  --cpu-threshold 30 \
+  --watcher-dir /tmp \
+  --log-format json
 ```
 
 ---
 
-<!-- ## Directory Structure
+## 🔍 Features
 
-```
-loggerHeads/
-├── src/
-│   ├── config/          # Config parsing and management
-│   ├── logger/          # Logging utilities
-│   ├── platform/        # OS-specific code
-│   ├── watchers/        # Event watchers (file, process, usb, network)
-│   └── main.rs
-├── logs/                # Output logs directory
-├── filewatcher.event.sh # Bash script to simulate file activity
-├── Cargo.toml
-```
+- 🧠 **Process Monitoring** — Track high-CPU processes
+- 🗂️ **File System Watcher** — Log created, modified, and deleted files
+- 🔌 **USB Detection** — Detect when USB devices are plugged/unplugged
+- 🌐 **Network Watcher** — Monitor IP connections and traffic
+- 📡 **Packet Sniffing (WIP)** — Capture and inspect raw network packets
+- 🧾 **Flexible Logging** — Output logs in JSON or human-readable formats
+- 🔒 **Signed Releases** — GPG signatures for all releases
+- 🛠️ **Cross-platform Support** — Linux, macOS, and Windows
+- 🧩 **TOML Config** — Load log directory from `config.toml`
+- ⚡ **CLI Configuration** — All options configurable via flags
 
 ---
 
-## File Watcher Test
+## 🧪 Build From Source (Optional)
 
 ```bash
-chmod +x filewatcher.event.sh
-./filewatcher.event.sh
+git clone https://github.com/YOUR_USERNAME/loggerheads.git
+cd loggerheads
+cargo build --release
 ```
 
-This script will simulate file creation, editing, and deletion in the monitored folder.
+Output binary will be in:
+```
+target/release/loggerheads
+```
 
 ---
 
-## Sample Log Output
+## 📜 License
 
-```
-[2025-06-01T14:52:12][FileChange] File created at /tmp/watch_test/sample.txt
-[2025-06-01T14:52:20][ProcessEvent] Process: bash | PID: 12345 | CPU: 3.2% | MEM: 2.5MB | User: bunmi | Started: 2025-06-01T14:50:03 | Command: bash
-[2025-06-01T14:53:01][USBEvent] USB device connected: Logitech USB Receiver
-[2025-06-01T14:54:08][NetworkEvent] Interface eth0 now has IP: 192.168.1.23
-```
+MIT License © Damilola Samson
 
---- -->
-
-## Roadmap
-
-* [x] File watcher
-* [x] Process monitor
-* [x] USB event listener
-* [x] Network interface monitoring
-<!-- * [ ] CLI configuration with `clap`
-* [ ] Export to cloud storage or dashboard
-* [ ] GUI/Web dashboard frontend
-* [ ] Log rotation support -->
+See [LICENSE](LICENSE) for full terms.
 
 ---
 
-## License
-
-MIT License
-
----
+**Made with 🦀 using Rust — Monitor everything.**
 
 ## Contributing
 Bunmi
