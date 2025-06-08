@@ -128,14 +128,9 @@ target/release/loggerheads
 
 MIT License © Damilola Samson
 
-See [LICENSE](LICENSE) for full terms.
-
 ---
 
 **Made with 🦀 using Rust — Monitor everything.**
 
 ## Contributing
 Bunmi
-
-<!-- PRs, issues, and feedback welcome.
-Join the mission to make system event monitoring accessible and robust across platforms. -->
