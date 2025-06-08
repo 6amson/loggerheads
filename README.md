@@ -99,7 +99,6 @@ loggerheads-[platform] [OPTIONS]
 
 - 🧠 **Process Monitoring** — Track high-CPU processes
 - 🗂️ **File System Watcher** — Log created, modified, and deleted files
-- 🔌 **USB Detection** — Detect when USB devices are plugged/unplugged
 - 🌐 **Network Watcher** — Monitor IP connections and traffic
 - 📡 **Packet Sniffing (WIP)** — Capture and inspect raw network packets
 - 🧾 **Flexible Logging** — Output logs in JSON or human-readable formats

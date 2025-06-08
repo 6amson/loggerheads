@@ -12721,3 +12721,158 @@ Time: 2025-06-08 00:29:00
 Type: NetworkWatch
 Details: NEW TCP CONNECTION | TCP | 172.17.88.223:35438 -> 2.16.8.178:443 | PID: 78435 | State: Established
 
+[2025-06-08 00:29:30] Scanning processes - Found 5 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-08 00:29:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 36.70% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:29:30
+Type: ProcessWatch
+Details: PID: 78435 | CPU: 11.01% | MEM: 572.01 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:10
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-08 00:29:30
+Type: ProcessWatch
+Details: PID: 74157 | CPU: 7.34% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:29:30
+Type: ProcessWatch
+Details: PID: 74161 | CPU: 7.34% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:29:30
+Type: ProcessWatch
+Details: PID: 78471 | CPU: 11.01% | MEM: 572.01 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:14
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+[2025-06-08 00:30:00] Scanning processes - Found 6 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 74157 | CPU: 6.48% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 78435 | CPU: 9.72% | MEM: 570.24 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:10
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 78471 | CPU: 9.72% | MEM: 570.24 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:14
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 74163 | CPU: 6.48% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 74156 | CPU: 6.48% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 38.87% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: INFO
+Time: 2025-06-08 00:29:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:34698 -> 72.247.155.89:443 | PID: 78435 | State: Established
+
+Log: INFO
+Time: 2025-06-08 00:29:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:42672 -> 71.18.139.224:443 | PID: 78435 | State: Established
+
+Log: INFO
+Time: 2025-06-08 00:29:30
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:48528 -> 71.18.45.193:443 | PID: 78435 | State: Established
+
+Log: INFO
+Time: 2025-06-08 00:30:00
+Type: NetworkWatch
+Details: NEW TCP CONNECTION | TCP | 172.17.88.223:36182 -> 71.18.45.193:443 | PID: 78435 | State: Established
+
+Log: DEBUG
+Time: 2025-06-08 00:30:00
+Type: NetworkWatch
+Details: Network Monitor Status | Active connections: 13 | Iteration: 200
+
+[2025-06-08 00:30:30] Scanning processes - Found 4 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-08 00:30:30
+Type: ProcessWatch
+Details: PID: 74163 | CPU: 8.16% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:30
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 32.65% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:30
+Type: ProcessWatch
+Details: PID: 74156 | CPU: 8.16% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:30:30
+Type: ProcessWatch
+Details: PID: 78471 | CPU: 8.16% | MEM: 570.31 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:14
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+[2025-06-08 00:31:00] Scanning processes - Found 3 above 5.0% CPU threshold
+Log: WARN
+Time: 2025-06-08 00:31:00
+Type: ProcessWatch
+Details: PID: 74163 | CPU: 7.48% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
+Log: WARN
+Time: 2025-06-08 00:31:00
+Type: ProcessWatch
+Details: PID: 78435 | CPU: 7.48% | MEM: 569.98 MB
+USER: uid:Uid(1000) | START: 2025-06-07 23:18:10
+CMD: /home/bunmi/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node /home/bunmi/.vscode-server/extensions/marscode.marscode-extension-1.2.17/resource/aiserver/server.js --logFile false --isExternal true --authV2 false
+
+Log: WARN
+Time: 2025-06-08 00:31:00
+Type: ProcessWatch
+Details: PID: 74142 | CPU: 44.86% | MEM: 9.50 MB
+USER: uid:Uid(0) | START: 2025-06-07 22:50:30
+CMD: target/debug/loggerheads --log-format plaintext --watcher-dir ./src/platform --interval 30 --cpu-threshold 5
+
