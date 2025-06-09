@@ -1,4 +1,4 @@
-# 🐗 LoggerHeads
+# 🪵 LoggerHeads
 
 **LoggerHeads** is a blazing-fast, cross-platform system monitoring and logging tool written in Rust. It monitors file changes, processes, USB devices, network activity, and even raw packets — all configurable and logged in real-time. Perfect for auditing, security monitoring, or diagnostics.
 
@@ -6,10 +6,10 @@
 
 ## 📦 Download
 
-Get the latest release from the [Releases Page](https://github.com/YOUR_USERNAME/loggerheads/releases/latest).
+Get the latest release from the [Releases Page](https://github.com/6amson/loggerheads/releases/latest).
 
-| Platform | Standalone Binary | Compressed Archive | Size |
-|----------|-------------------|-------------------|------|
+| Platform | Standalone Binary | Compressed Archive |
+|----------|-------------------|-------------------|
 | 🐧 Linux  | `loggerheads-linux` (2.71 MB)   | `loggerheads-linux.tar.gz` (1.04 MB)    |
 | 🍎 macOS  | `loggerheads-macos` (2.15 MB)   | `loggerheads-macos.tar.gz` (911 KB)     |
 | 🪟 Windows| `loggerheads.exe` (8.94 MB)     | `loggerheads-windows.zip` (2.77 MB)     |
