@@ -102,14 +102,14 @@ ls -la "$TEST_DIR"
 
 sleep 1
 
-# echo "8. Final cleanup..."
-# rm -rf "$TEST_DIR"
+echo "8. Final cleanup..."
+rm -rf "$TEST_DIR"
 
-# if [ ! -d "$TEST_DIR" ]; then
-#     echo "✅ Test directory cleaned up"
-# else
-#     echo "❌ Failed to clean up test directory"
-# fi
+if [ ! -d "$TEST_DIR" ]; then
+    echo "✅ Test directory cleaned up"
+else
+    echo "❌ Failed to clean up test directory"
+fi
 
 echo ""
 echo "🎉 File watcher test complete!"
