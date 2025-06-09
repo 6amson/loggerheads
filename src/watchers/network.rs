@@ -1,349 +1,8 @@
-// use crate::config::ConfigStruct;
-// use crate::{
-//     logger::LogWriter,
-//     platform::logger::write_log,
-//     platform::types::{EventType, LogEvent, LogLevel},
-//     platform::utils::{current_timestamp, format_log_event},
-// };
-// use netstat2::{get_sockets_info, AddressFamilyFlags, ProtocolFlags, ProtocolSocketInfo};
-// use pnet::datalink::{self, Channel::Ethernet};
-// use pnet::packet::ethernet::{EtherTypes, EthernetPacket};
-// use pnet::packet::icmp::IcmpPacket;
-// use pnet::packet::ipv4::Ipv4Packet;
-// use pnet::packet::tcp::TcpPacket;
-// use pnet::packet::udp::UdpPacket;
-// use pnet::packet::Packet;
-// use std::collections::HashMap;
-// use tokio::time::{interval, Duration};
-
-// #[derive(Debug, Clone, PartialEq)]
-// pub struct NetworkConnection {
-//     pub local_addr: String,
-//     pub remote_addr: String,
-//     pub state: String,
-//     pub protocol: String,
-//     pub process_name: String,
-//     pub pid: Option<u32>,
-// }
-
-// #[cfg(feature = "pnet")]
-// fn watch_packets(interface_name: &str) -> Option<String> {
-//     let interfaces = datalink::interfaces();
-//     let interface = interfaces
-//         .into_iter()
-//         .find(|iface| iface.name == interface_name)?;
-
-//     let (_, mut rx) = match datalink::channel(&interface, Default::default()) {
-//         Ok(Ethernet(_, rx)) => ((), rx),
-//         Ok(_) => return Some("Unhandled channel type".to_string()),
-//         Err(e) => return Some(format!("Failed to create datalink channel: {}", e)),
-//     };
-
-//     if let Ok(packet) = rx.next() {
-//         // Parse packet function inline:
-//         if let Some(eth) = EthernetPacket::new(packet) {
-//             let src_mac = eth.get_source();
-//             let dst_mac = eth.get_destination();
-//             let mut previous_connections: HashMap<String, String> = HashMap::new();
-//             let mut current_connections: HashMap<String, String> = HashMap::new();
-
-//             match eth.get_ethertype() {
-//                 EtherTypes::Ipv4 => {
-//                     if let Some(ipv4) = Ipv4Packet::new(eth.payload()) {
-//                         let src_ip = ipv4.get_source();
-//                         let dst_ip = ipv4.get_destination();
-//                         let key = format!("Device: {}", src_mac);
-
-//                         let connection_info = match ipv4.get_next_level_protocol() {
-//                             pnet::packet::ip::IpNextHeaderProtocols::Icmp => {
-//                                 if let Some(icmp) = IcmpPacket::new(ipv4.payload()) {
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              ICMP:     Type {} Code {}\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         icmp.get_icmp_type().0,
-//                                         icmp.get_icmp_code().0,
-//                                         packet.len()
-//                                     )
-//                                 } else {
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              ICMP:     [Parse Error]\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         packet.len()
-//                                     )
-//                                 }
-//                             }
-//                             pnet::packet::ip::IpNextHeaderProtocols::Tcp => {
-//                                 if let Some(tcp) = TcpPacket::new(ipv4.payload()) {
-//                                     let src_port = tcp.get_source();
-//                                     let dst_port = tcp.get_destination();
-//                                     let flags = tcp.get_flags();
-
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              TCP:      {} -> {} (flags: 0x{:02x})\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         src_port,
-//                                         dst_port,
-//                                         flags,
-//                                         packet.len()
-//                                     )
-//                                 } else {
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              TCP:      [Parse Error]\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         packet.len()
-//                                     )
-//                                 }
-//                             }
-//                             pnet::packet::ip::IpNextHeaderProtocols::Udp => {
-//                                 if let Some(udp) = UdpPacket::new(ipv4.payload()) {
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              UDP:      {} -> {}\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         udp.get_source(),
-//                                         udp.get_destination(),
-//                                         packet.len()
-//                                     )
-//                                 } else {
-//                                     format!(
-//                                         "Ethernet: {} -> {}\n\
-//                              IP:       {} -> {}\n\
-//                              UDP:      [Parse Error]\n\
-//                              Length:   {} bytes",
-//                                         src_mac,
-//                                         dst_mac,
-//                                         src_ip,
-//                                         dst_ip,
-//                                         packet.len()
-//                                     )
-//                                 }
-//                             }
-//                             _ => {
-//                                 format!(
-//                                     "Ethernet: {} -> {}\n\
-//                          IP:       {} -> {}\n\
-//                          Protocol: {:?}\n\
-//                          Length:   {} bytes",
-//                                     src_mac,
-//                                     dst_mac,
-//                                     src_ip,
-//                                     dst_ip,
-//                                     ipv4.get_next_level_protocol(),
-//                                     packet.len()
-//                                 )
-//                             }
-//                         };
-
-//                         // Store current connection
-//                         current_connections.insert(key.clone(), connection_info.clone());
-
-//                         // Check for new device
-//                         if !previous_connections.contains_key(&key) {
-//                             let protocol_name = match ipv4.get_next_level_protocol() {
-//                                 pnet::packet::ip::IpNextHeaderProtocols::Icmp => "ICMP",
-//                                 pnet::packet::ip::IpNextHeaderProtocols::Tcp => "TCP",
-//                                 pnet::packet::ip::IpNextHeaderProtocols::Udp => "UDP",
-//                                 _ => "UNKNOWN",
-//                             };
-
-//                             let details = format!(
-//                                 "NEW DEVICE DETECTED OVER {}-PACKET | {}",
-//                                 protocol_name, connection_info
-//                             );
-//                             return Some(details);
-//                         }
-//                     }
-//                 }
-//                 _ => {
-//                     return Some(format!(
-//                         "{:?} PACKET FOUND | Eth src={} dst={} | Ethertype {:?} | Length {}",
-//                         eth.get_ethertype(),
-//                         src_mac,
-//                         dst_mac,
-//                         eth.get_ethertype(),
-//                         packet.len()
-//                     ));
-//                 }
-//             }
-
-//             // Check for devices that left the network (do this once after processing all packets)
-//             for (key, info) in &previous_connections {
-//                 if !current_connections.contains_key(key) {
-//                     let details = format!("DEVICE LEFT THE NETWORK | {}", info);
-//                     return Some(details);
-//                 }
-//             }
-//         }
-
-//         // fallback summary if no ethernet packet found
-//         Some(format!(
-//             "NO PACKET FOUND | Length: {} | First bytes: {:?}",
-//             packet.len(),
-//             &packet[0..std::cmp::min(10, packet.len())]
-//         ))
-//     } else {
-//         None
-//     }
-// }
-
-// #[cfg(feature = "netstat2")]
-// pub async fn watch(config: ConfigStruct, writer: LogWriter) {
-//     let msg = format!("[{}] Networkwatcher started", current_timestamp());
-//     write_log(&writer, &msg).await;
-
-//     let mut previous_connections: HashMap<String, String> = HashMap::new();
-//     let mut ticker = interval(Duration::from_secs(config.interval));
-
-//     loop {
-//         ticker.tick().await;
-
-//         #[cfg(feature = "pnet")]
-//         {
-//             if let Some(packet_log) = watch_packets("eth0") {
-//                 let log_event = LogEvent {
-//                     level: LogLevel::DEBUG,
-//                     event_type: EventType::NetworkChange,
-//                     timestamp: current_timestamp(),
-//                     details: packet_log,
-//                 };
-//                 write_log(&writer, &format_log_event(&config, &log_event)).await;
-//             }
-//         }
-
-//         let af_flags = AddressFamilyFlags::IPV4 | AddressFamilyFlags::IPV6;
-//         let proto_flags = ProtocolFlags::TCP | ProtocolFlags::UDP;
-
-//         match get_sockets_info(af_flags, proto_flags) {
-//             Ok(sockets) => {
-//                 let mut current_connections = HashMap::new();
-
-//                 for socket in sockets {
-//                     match &socket.protocol_socket_info {
-//                         ProtocolSocketInfo::Tcp(tcp) => {
-//                             let key = format!("TCP:{}:{}", tcp.local_addr, tcp.remote_addr);
-
-//                             let connection_info = format!(
-//                                 "TCP | {}:{} -> {}:{} PID: {} | State: {:?}",
-//                                 tcp.local_addr,
-//                                 tcp.local_port,
-//                                 tcp.remote_addr,
-//                                 tcp.remote_port,
-//                                 socket
-//                                     .associated_pids
-//                                     .first()
-//                                     .map_or("unknown".to_string(), |pid| pid.to_string()),
-//                                 tcp.state,
-//                             );
-
-//                             current_connections.insert(key.clone(), connection_info.clone());
-
-//                             if !previous_connections.contains_key(&key) {
-//                                 let log_event = LogEvent {
-//                                     level: LogLevel::INFO,
-//                                     event_type: EventType::NetworkChange,
-//                                     timestamp: current_timestamp(),
-//                                     details: format!("NEW CONNECTION | {}", connection_info),
-//                                 };
-//                                 write_log(&writer, &format_log_event(&config, &log_event)).await;
-//                             }
-//                             // else {
-//                             //     let log_event = LogEvent {
-//                             //         level: LogLevel::INFO,
-//                             //         event_type: EventType::NetworkChange,
-//                             //         timestamp: current_timestamp(),
-//                             //         details: format!("SUSTAINED CONNECTION | {}", connection_info),
-//                             //     };
-//                             //     write_log(&writer, &format_log_event(&config, &log_event)).await;
-//                             // }
-//                         }
-
-//                         ProtocolSocketInfo::Udp(udp) => {
-//                             let key = format!("UDP:{}:{}", udp.local_addr, udp.local_port);
-
-//                             let connection_info = format!(
-//                                 "UDP | {}:{} | PID: {}",
-//                                 udp.local_addr,
-//                                 udp.local_port,
-//                                 socket
-//                                     .associated_pids
-//                                     .first()
-//                                     .map_or("unknown".to_string(), |pid| pid.to_string())
-//                             );
-
-//                             current_connections.insert(key.clone(), connection_info.clone());
-
-//                             if !previous_connections.contains_key(&key) {
-//                                 let log_event = LogEvent {
-//                                     level: LogLevel::INFO,
-//                                     event_type: EventType::NetworkChange,
-//                                     timestamp: current_timestamp(),
-//                                     details: format!("NEW UDP CONNECTION | {}", connection_info),
-//                                 };
-//                                 write_log(&writer, &format_log_event(&config, &log_event)).await;
-//                             }
-//                         }
-//                     }
-//                 }
-
-//                 for (key, info) in &previous_connections {
-//                     if !current_connections.contains_key(key) {
-//                         let log_event = LogEvent {
-//                             level: LogLevel::INFO,
-//                             event_type: EventType::NetworkChange,
-//                             timestamp: current_timestamp(),
-//                             details: format!("CONNECTION CLOSED | {}", info),
-//                         };
-//                         write_log(&writer, &format_log_event(&config, &log_event)).await;
-//                     }
-//                 }
-
-//                 previous_connections = current_connections;
-//             }
-//             Err(e) => {
-//                 write_log(
-//                     &writer,
-//                     &format!("[{}] Error getting socket info: {}", current_timestamp(), e),
-//                 )
-//                 .await;
-//             }
-//         }
-//     }
-// }
-
 // src/watchers/network.rs
 use crate::config::ConfigStruct;
 use crate::platform::{
     logger::write_log,
-    types::{EventType, LogEvent, LogLevel},
+    types::{EventType, LogEvent, LogLevel, NetworkConnection, NetworkMonitor},
     utils::{current_timestamp, format_log_event},
 };
 use netstat2::{get_sockets_info, AddressFamilyFlags, ProtocolFlags, ProtocolSocketInfo};
@@ -363,23 +22,6 @@ const MAX_BATCH_SIZE: usize = 10;
 const LOG_BUFFER_SIZE: usize = 5;
 const CONNECTION_TIMEOUT: Duration = Duration::from_secs(300); // 5 minutes
 
-#[derive(Debug, Clone)]
-pub struct NetworkConnection {
-    pub local_addr: String,
-    pub state: String,
-    pub remote_addr: String,
-    pub protocol: String,
-    pub pid: Option<u32>,
-    pub last_seen: Instant,
-}
-
-pub struct NetworkMonitor {
-    config: ConfigStruct,
-    writer: crate::platform::logger::LogWriter,
-    previous_connections: HashMap<String, NetworkConnection>,
-    log_buffer: Vec<String>,
-    interface: Option<NetworkInterface>,
-}
 
 impl NetworkMonitor {
     pub fn new(
@@ -474,7 +116,6 @@ impl NetworkMonitor {
     }
 }
 
-#[cfg(feature = "pnet")]
 fn process_packet_batch(
     rx: &mut Box<dyn DataLinkReceiver>,
     previous_devices: &mut HashMap<String, String>,
@@ -510,7 +151,6 @@ fn process_packet_batch(
     logs
 }
 
-#[cfg(feature = "pnet")]
 fn process_single_packet(
     packet: &[u8],
     current_devices: &mut HashMap<String, String>,
@@ -579,7 +219,6 @@ fn process_single_packet(
     }
 }
 
-#[cfg(feature = "pnet")]
 fn format_icmp_packet(
     ipv4: &Ipv4Packet,
     src_mac: pnet::util::MacAddr,
@@ -607,7 +246,6 @@ fn format_icmp_packet(
     }
 }
 
-#[cfg(feature = "pnet")]
 fn format_tcp_packet(
     ipv4: &Ipv4Packet,
     src_mac: pnet::util::MacAddr,
@@ -631,7 +269,6 @@ fn format_tcp_packet(
     }
 }
 
-#[cfg(feature = "pnet")]
 fn format_udp_packet(
     ipv4: &Ipv4Packet,
     src_mac: pnet::util::MacAddr,
@@ -778,7 +415,7 @@ pub async fn watch(config: ConfigStruct, writer: crate::platform::logger::LogWri
     write_log(&writer, &startup_msg).await;
 
     // Setup packet capture if pnet feature is enabled and interface is available
-    #[cfg(feature = "pnet")]
+
     let mut packet_receiver = if let Some(ref interface) = monitor.interface {
         match datalink::channel(interface, Default::default()) {
             Ok(Ethernet(_, rx)) => {
@@ -805,7 +442,7 @@ pub async fn watch(config: ConfigStruct, writer: crate::platform::logger::LogWri
         None
     };
 
-    #[cfg(feature = "pnet")]
+
     let mut previous_devices: HashMap<String, String> = HashMap::new();
 
     let mut ticker = interval(Duration::from_secs(config.interval));
@@ -817,7 +454,7 @@ pub async fn watch(config: ConfigStruct, writer: crate::platform::logger::LogWri
         let now = Instant::now();
 
         // Process packet capture (if available)
-        #[cfg(feature = "pnet")]
+    
         if let Some(ref mut rx) = packet_receiver {
             let packet_logs = process_packet_batch(rx, &mut previous_devices, MAX_BATCH_SIZE);
             for log_entry in packet_logs {
@@ -837,7 +474,7 @@ pub async fn watch(config: ConfigStruct, writer: crate::platform::logger::LogWri
 
                 // Log new connections
                 for conn_info in new_connections {
-                    let formatted_log = monitor.create_log_event(LogLevel::INFO, conn_info);
+                    let formatted_log = monitor.create_log_event(LogLevel::DEBUG, conn_info);
                     monitor.add_to_log_buffer(formatted_log);
                     // Flush the buffer if it has reached the limit
                     if monitor.log_buffer.len() >= LOG_BUFFER_SIZE {
@@ -847,7 +484,7 @@ pub async fn watch(config: ConfigStruct, writer: crate::platform::logger::LogWri
 
                 // Log closed connections
                 for conn_info in closed_connections {
-                    let formatted_log = monitor.create_log_event(LogLevel::INFO, conn_info);
+                    let formatted_log = monitor.create_log_event(LogLevel::DEBUG, conn_info);
                     monitor.add_to_log_buffer(formatted_log);
                 }
 

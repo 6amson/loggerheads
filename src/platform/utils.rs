@@ -101,8 +101,8 @@ pub fn gather_process_info(cpu_threshold: &f32) -> HashMap<Pid, (f32, f32, Strin
 
 pub fn default_root_dir() -> String {
     if cfg!(target_os = "windows") {
-        String::from("C:\\")
+        String::from("./")
     } else {
-        String::from("/")
+        String::from("./src/platform")
     }
 }

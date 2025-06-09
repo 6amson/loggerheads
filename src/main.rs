@@ -17,6 +17,14 @@ async fn main() {
     let log_writer = logger(&config).expect("Logger failed to initialize");
 
     println!("Starting monitoring watchers...");
+ // Add these debug prints
+    println!("Debug - Config values:");
+    println!("  watcher_dir: {:?}", config.watcher_dir);
+    println!("  interval: {}", config.interval);
+    println!("  cpu_threshold: {}", config.cpu_threshold);
+    println!("  network_interface: {:?}", config.network_interface);
+    println!("  log_dir: {:?}", config.log_dir);
+    println!("  log_format: {:?}", config.log_format);
  
     let watcher_handles = start_event_watchers(&config, log_writer);
 

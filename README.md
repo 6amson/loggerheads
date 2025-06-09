@@ -1,6 +1,6 @@
 # 🪵 LoggerHeads
 
-**LoggerHeads** is a blazing-fast, cross-platform system monitoring and logging tool written in Rust. It monitors file changes, processes, USB devices, network activity, and even raw packets — all configurable and logged in real-time. Perfect for auditing, security monitoring, or diagnostics.
+**LoggerHeads** is a blazing-fast, cross-platform system monitoring and logging tool written in Rust. It monitors file changes, processes, network activity, and even raw packets — all configurable and logged in real-time. Perfect for auditing, security monitoring, or diagnostics.
 
 ---
 
@@ -82,6 +82,9 @@ loggerheads-[platform] [OPTIONS]
 | `--cpu-threshold` | CPU usage % to trigger alerts |
 | `--watcher-dir` | Directory to monitor for file changes |
 | `--log-format` | Format to use: `json` or `text` |
+
+
+> **💡 Tip**: The file watcher logs a high volume of events, especially if a process maintains open or frequent connections to watched directories (e.g., databases, browsers, dev servers). To avoid bloated logs: Choose a --watcher-dir with a narrow scope (e.g., /home/user/projects/loggerHeads instead of / or /home) Or ensure you have sufficient disk space if you’re monitoring a busy directory.
 
 ### Example
 ```bash
