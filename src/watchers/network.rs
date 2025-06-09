@@ -20,7 +20,7 @@ use tokio::time::interval;
 // Configuration constants
 const MAX_BATCH_SIZE: usize = 10;
 const LOG_BUFFER_SIZE: usize = 5;
-const CONNECTION_TIMEOUT: Duration = Duration::from_secs(300); // 5 minutes
+const CONNECTION_TIMEOUT: Duration = Duration::from_secs(300); // 5 mins
 
 
 impl NetworkMonitor {

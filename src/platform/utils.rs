@@ -103,6 +103,6 @@ pub fn default_root_dir() -> String {
     if cfg!(target_os = "windows") {
         String::from("./")
     } else {
-        String::from("./src/platform")
+        String::from("./")
     }
 }
