@@ -176,6 +176,10 @@ jobs:
             ./loggerheads-linux --help
             ```
           files: |
-            release/*
+            release/*.tar.gz
+            release/*.zip
+            release/*.tar.gz.asc
+            release/*.zip.asc
+
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
