@@ -1,201 +1,3 @@
-# name: Release LoggerHeads
-
-# on:
-#   push:
-#     tags:
-#       - "v*.*.*"
-
-# permissions:
-#   contents: write
-#   packages: read
-
-# env:
-#   CARGO_TERM_COLOR: always
-
-# jobs:
-#   build-linux:
-#     name: Build Linux Binary
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: dtolnay/rust-toolchain@stable
-#       - run: cargo install cross --locked
-#       - run: cross build --release --target x86_64-unknown-linux-gnu
-#       - run: mkdir dist && cp target/x86_64-unknown-linux-gnu/release/loggerheads dist/loggerheads-linux
-#       - run: tar -czvf dist/loggerheads-linux.tar.gz -C dist loggerheads-linux
-#       # Only upload the archived version, remove raw binary
-#       - run: rm dist/loggerheads-linux
-#       - uses: actions/upload-artifact@v4
-#         with:
-#           name: linux
-#           path: dist/*.tar.gz
-
-#   build-windows:
-#     name: Build Windows Binary
-#     runs-on: windows-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: dtolnay/rust-toolchain@stable
-#         with:
-#           targets: x86_64-pc-windows-msvc
-
-#       # Install Npcap SDK for packet capture functionality
-#       - name: Install Npcap SDK
-#         run: |
-#           Invoke-WebRequest -Uri "https://npcap.com/dist/npcap-sdk-1.13.zip" -OutFile "npcap-sdk.zip"
-#           Expand-Archive -Path "npcap-sdk.zip" -DestinationPath "npcap-sdk"
-
-#       # Set environment variables for the build
-#       - name: Set build environment
-#         run: |
-#           $currentLib = [Environment]::GetEnvironmentVariable("LIB", "Process")
-#           $currentInclude = [Environment]::GetEnvironmentVariable("INCLUDE", "Process")
-#           $newLib = if ($currentLib) { "$currentLib;$PWD\npcap-sdk\Lib\x64" } else { "$PWD\npcap-sdk\Lib\x64" }
-#           $newInclude = if ($currentInclude) { "$currentInclude;$PWD\npcap-sdk\Include" } else { "$PWD\npcap-sdk\Include" }
-#           echo "LIB=$newLib" >> $env:GITHUB_ENV
-#           echo "INCLUDE=$newInclude" >> $env:GITHUB_ENV
-
-#       - run: cargo build --release --target x86_64-pc-windows-msvc
-
-#       - name: Prepare distribution
-#         run: |
-#           mkdir dist
-#           Copy-Item -Path "target\x86_64-pc-windows-msvc\release\loggerheads.exe" -Destination "dist\"
-
-#           # Copy required DLLs if they exist in the SDK
-#           if (Test-Path "npcap-sdk\Lib\x64\Packet.dll") {
-#             Copy-Item -Path "npcap-sdk\Lib\x64\Packet.dll" -Destination "dist\"
-#           }
-#           if (Test-Path "npcap-sdk\Lib\x64\wpcap.dll") {
-#             Copy-Item -Path "npcap-sdk\Lib\x64\wpcap.dll" -Destination "dist\"
-#           }
-
-#           # Create README for Windows users
-#           @"
-#           LoggerHeads Windows Binary
-#           ==========================
-
-#           This package contains:
-#           - loggerheads.exe - Main executable
-#           - Packet.dll, wpcap.dll - Required for packet capture (if included)
-
-#           Requirements:
-#           - Npcap must be installed on the target system for packet capture functionality
-#           - Download from: https://npcap.com/
-
-#           Usage:
-#           - Extract all files to the same directory
-#           - Run: .\loggerheads.exe --help
-#           "@ | Out-File -FilePath "dist\README.txt" -Encoding UTF8
-
-#       - name: Create archive
-#         run: Compress-Archive -Path "dist\*" -DestinationPath "dist\loggerheads-windows.zip"
-
-#       - name: Clean up before upload
-#         run: |
-#           # Remove individual files, keep only the zip
-#           Remove-Item "dist\loggerheads.exe" -ErrorAction SilentlyContinue
-#           Remove-Item "dist\*.dll" -ErrorAction SilentlyContinue
-#           Remove-Item "dist\README.txt" -ErrorAction SilentlyContinue
-
-#       - uses: actions/upload-artifact@v4
-#         with:
-#           name: windows
-#           path: dist/*.zip
-#   build-macos:
-#     name: Build macOS Binary
-#     runs-on: macos-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - uses: dtolnay/rust-toolchain@stable
-#       - name: Add macOS target
-#         run: rustup target add x86_64-apple-darwin
-#       - run: cargo build --release --target x86_64-apple-darwin
-#       - run: mkdir dist && cp target/x86_64-apple-darwin/release/loggerheads dist/loggerheads-macos
-#       - run: tar -czvf dist/loggerheads-macos.tar.gz -C dist loggerheads-macos
-#       # Only upload the archived version, remove raw binary
-#       - run: rm dist/loggerheads-macos
-#       - uses: actions/upload-artifact@v4
-#         with:
-#           name: macos
-#           path: dist/*.tar.gz
-
-#   release:
-#     name: Create GitHub Release
-#     needs: [build-linux, build-windows, build-macos]
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Download Linux artifacts
-#         uses: actions/download-artifact@v4
-#         with:
-#           name: linux
-#           path: artifacts/linux
-
-#       - name: Download Windows artifacts
-#         uses: actions/download-artifact@v4
-#         with:
-#           name: windows
-#           path: artifacts/windows
-
-#       - name: Download macOS artifacts
-#         uses: actions/download-artifact@v4
-#         with:
-#           name: macos
-#           path: artifacts/macos
-
-#       - name: Reorganize artifacts
-#         run: |
-#           mkdir -p release
-#           find artifacts -name "*.tar.gz" -o -name "*.zip" | while read file; do
-#             cp "$file" release/
-#           done
-
-#       - name: List downloaded artifacts (debug)
-#         run: find release -type f -ls
-
-#       - name: Import GPG Key
-#         run: |
-#           echo "$GPG_PRIVATE_KEY" > private.key
-#           gpg --batch --import private.key
-#           rm private.key
-#         env:
-#           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-
-#       - name: Sign Artifacts
-#         run: |
-#           find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
-
-#       - name: Create GitHub Release
-#         uses: softprops/action-gh-release@v2
-#         with:
-#           tag_name: ${{ github.ref }}
-#           name: "LoggerHeads ${{ github.ref_name }}"
-#           body: |
-#             🎉 LoggerHeads ${{ github.ref_name }} Released!
-
-#             Signed with GPG Key ID: `4A3629C90B57475B`
-
-#             ## Artifacts
-#             - Linux, Windows, macOS binaries (archived) + signatures
-
-#             ## Download & Verify
-#             ```bash
-#             # Download the archive for your platform
-#             wget https://github.com/6amson/loggerheads/releases/download/${{ github.ref_name }}/loggerheads-linux.tar.gz
-
-#             # Verify signature
-#             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
-#             gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
-
-#             # Extract and use
-#             tar -xzf loggerheads-linux.tar.gz
-#             ./loggerheads-linux --help
-#             ```
-#           files: |
-#             release/*
-#         env:
-#           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
-
 name: Release LoggerHeads
 
 on:
@@ -237,60 +39,60 @@ jobs:
         with:
           targets: x86_64-pc-windows-msvc
 
-      # Simple build - no Npcap needed since using netstat2
+      # Install Npcap SDK for packet capture functionality
+      - name: Install Npcap SDK
+        run: |
+          Invoke-WebRequest -Uri "https://npcap.com/dist/npcap-sdk-1.13.zip" -OutFile "npcap-sdk.zip"
+          Expand-Archive -Path "npcap-sdk.zip" -DestinationPath "npcap-sdk"
+      # Set environment variables for the build
+      - name: Set build environment
+        run: |
+          $currentLib = [Environment]::GetEnvironmentVariable("LIB", "Process")
+          $currentInclude = [Environment]::GetEnvironmentVariable("INCLUDE", "Process")
+          $newLib = if ($currentLib) { "$currentLib;$PWD\npcap-sdk\Lib\x64" } else { "$PWD\npcap-sdk\Lib\x64" }
+          $newInclude = if ($currentInclude) { "$currentInclude;$PWD\npcap-sdk\Include" } else { "$PWD\npcap-sdk\Include" }
+          echo "LIB=$newLib" >> $env:GITHUB_ENV
+          echo "INCLUDE=$newInclude" >> $env:GITHUB_ENV
       - run: cargo build --release --target x86_64-pc-windows-msvc
 
       - name: Prepare distribution
         run: |
           mkdir dist
           Copy-Item -Path "target\x86_64-pc-windows-msvc\release\loggerheads.exe" -Destination "dist\"
-
+          # Copy required DLLs if they exist in the SDK
+          if (Test-Path "npcap-sdk\Lib\x64\Packet.dll") {
+            Copy-Item -Path "npcap-sdk\Lib\x64\Packet.dll" -Destination "dist\"
+          }
+          if (Test-Path "npcap-sdk\Lib\x64\wpcap.dll") {
+            Copy-Item -Path "npcap-sdk\Lib\x64\wpcap.dll" -Destination "dist\"
+          }
           # Create README for Windows users
-          $content = @"
+          @"
           LoggerHeads Windows Binary
           ==========================
-
           This package contains:
-          - loggerheads.exe - Main executable (uses Windows native APIs)
-
+          - loggerheads.exe - Main executable
+          - Packet.dll, wpcap.dll - Required for packet capture (if included)
           Requirements:
-          - Windows 10/11 (x64)
-          - No additional software installation required!
-
-          Features:
-          - Network connection monitoring
-          - Process network usage tracking
-          - Interface statistics
-          - Built using native Windows APIs (no drivers needed)
-
+          - Npcap must be installed on the target system for packet capture functionality
+          - Download from: https://npcap.com/
           Usage:
-          1. Extract loggerheads.exe to any folder
-          2. Run: .\loggerheads.exe --help
-          3. Some features may require administrator privileges
-
-          Note: This version uses netstat2 and Windows native networking APIs,
-          so no additional packet capture software (like Npcap) is required.
-
-          Troubleshooting:
-          - If you get permission errors, try running as Administrator
-          - Make sure you're on Windows 10/11 x64
-          - Check that Windows Defender isn't blocking the executable
-          "@ 
-              $content | Out-File -FilePath "dist\README.txt" -Encoding UTF8
-
+          - Extract all files to the same directory
+          - Run: .\loggerheads.exe --help
+          "@ | Out-File -FilePath "dist\README.txt" -Encoding UTF8
       - name: Create archive
         run: Compress-Archive -Path "dist\*" -DestinationPath "dist\loggerheads-windows.zip"
 
       - name: Clean up before upload
         run: |
+          # Remove individual files, keep only the zip
           Remove-Item "dist\loggerheads.exe" -ErrorAction SilentlyContinue
+          Remove-Item "dist\*.dll" -ErrorAction SilentlyContinue
           Remove-Item "dist\README.txt" -ErrorAction SilentlyContinue
-
       - uses: actions/upload-artifact@v4
         with:
           name: windows
           path: dist/*.zip
-
   build-macos:
     name: Build macOS Binary
     runs-on: macos-latest
@@ -338,7 +140,6 @@ jobs:
           find artifacts -name "*.tar.gz" -o -name "*.zip" | while read file; do
             cp "$file" release/
           done
-
       - name: List downloaded artifacts (debug)
         run: find release -type f -ls
 
@@ -353,7 +154,6 @@ jobs:
       - name: Sign Artifacts
         run: |
           find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -361,36 +161,20 @@ jobs:
           name: "LoggerHeads ${{ github.ref_name }}"
           body: |
             🎉 LoggerHeads ${{ github.ref_name }} Released!
-
             Signed with GPG Key ID: `4A3629C90B57475B`
-
             ## Artifacts
-            - **Linux**: Uses native Linux networking APIs
-            - **Windows**: Uses netstat2 + Windows native APIs (no additional software required!)
-            - **macOS**: Uses native macOS networking APIs
-
+            - Linux, Windows, macOS binaries (archived) + signatures
             ## Download & Verify
             ```bash
             # Download the archive for your platform
             wget https://github.com/6amson/loggerheads/releases/download/${{ github.ref_name }}/loggerheads-linux.tar.gz
-
             # Verify signature
             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
             gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
-
             # Extract and use
             tar -xzf loggerheads-linux.tar.gz
             ./loggerheads-linux --help
             ```
-
-            ## Windows Users
-            The Windows version requires **no additional software installation**. Just download, extract, and run!
-
-            ## Features
-            - Network connection monitoring
-            - Process network usage tracking  
-            - Interface statistics
-            - Cross-platform compatibility
           files: |
             release/*
         env:
