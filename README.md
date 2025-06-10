@@ -7,12 +7,12 @@
 ## 📦 Download
 
 Get the latest release from the [Releases Page](https://github.com/6amson/loggerheads/releases/latest).
+| Platform   | Standalone Binary             | Compressed Archive                                                           |
+| ---------- | ----------------------------- | ---------------------------------------------------------------------------- |
+| 🐧 Linux   | `loggerheads-linux` (2.71 MB) | [`loggerheads-linux.tar.gz`](#)<br>SHA256: `b7d97b22...ad3`<br>Size: 1.15 MB |
+| 🍎 macOS   | `loggerheads-macos` (2.15 MB) | [`loggerheads-macos.tar.gz`](#)<br>SHA256: `cc3192b6...72af`<br>Size: 951 KB |
+| 🪟 Windows | `loggerheads.exe` (8.94 MB)   | [`loggerheads-windows.zip`](#)<br>SHA256: `953555aa...809d`<br>Size: 782 KB  |
 
-| Platform | Standalone Binary | Compressed Archive |
-|----------|-------------------|-------------------|
-| 🐧 Linux  | `loggerheads-linux` (2.71 MB)   | `loggerheads-linux.tar.gz` (1.04 MB)    |
-| 🍎 macOS  | `loggerheads-macos` (2.15 MB)   | `loggerheads-macos.tar.gz` (911 KB)     |
-| 🪟 Windows| `loggerheads.exe` (8.94 MB)     | `loggerheads-windows.zip` (2.77 MB)     |
 
 ### Additional Downloads Available:
 - **Source Code**: Available as `.zip` or `.tar.gz` 
@@ -77,7 +77,6 @@ loggerheads-[platform] [OPTIONS]
 
 | Option | Description |
 |--------|-------------|
-| `--log-path` | Path to store logs (default: `./logs`) |
 | `--interval` | Monitoring interval in seconds (default: `10`) |
 | `--cpu-threshold` | CPU usage % to trigger alerts |
 | `--watcher-dir` | Directory to monitor for file changes |
