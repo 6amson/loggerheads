@@ -44,7 +44,6 @@ jobs:
         run: |
           Invoke-WebRequest -Uri "https://npcap.com/dist/npcap-sdk-1.13.zip" -OutFile "npcap-sdk.zip"
           Expand-Archive -Path "npcap-sdk.zip" -DestinationPath "npcap-sdk"
-
       # Set environment variables for the build
       - name: Set build environment
         run: |
@@ -54,14 +53,12 @@ jobs:
           $newInclude = if ($currentInclude) { "$currentInclude;$PWD\npcap-sdk\Include" } else { "$PWD\npcap-sdk\Include" }
           echo "LIB=$newLib" >> $env:GITHUB_ENV
           echo "INCLUDE=$newInclude" >> $env:GITHUB_ENV
-
       - run: cargo build --release --target x86_64-pc-windows-msvc
 
       - name: Prepare distribution
         run: |
           mkdir dist
           Copy-Item -Path "target\x86_64-pc-windows-msvc\release\loggerheads.exe" -Destination "dist\"
-
           # Copy required DLLs if they exist in the SDK
           if (Test-Path "npcap-sdk\Lib\x64\Packet.dll") {
             Copy-Item -Path "npcap-sdk\Lib\x64\Packet.dll" -Destination "dist\"
@@ -69,25 +66,20 @@ jobs:
           if (Test-Path "npcap-sdk\Lib\x64\wpcap.dll") {
             Copy-Item -Path "npcap-sdk\Lib\x64\wpcap.dll" -Destination "dist\"
           }
-
           # Create README for Windows users
           @"
           LoggerHeads Windows Binary
           ==========================
-
           This package contains:
           - loggerheads.exe - Main executable
           - Packet.dll, wpcap.dll - Required for packet capture (if included)
-
           Requirements:
           - Npcap must be installed on the target system for packet capture functionality
           - Download from: https://npcap.com/
-
           Usage:
           - Extract all files to the same directory
           - Run: .\loggerheads.exe --help
           "@ | Out-File -FilePath "dist\README.txt" -Encoding UTF8
-
       - name: Create archive
         run: Compress-Archive -Path "dist\*" -DestinationPath "dist\loggerheads-windows.zip"
 
@@ -97,7 +89,6 @@ jobs:
           Remove-Item "dist\loggerheads.exe" -ErrorAction SilentlyContinue
           Remove-Item "dist\*.dll" -ErrorAction SilentlyContinue
           Remove-Item "dist\README.txt" -ErrorAction SilentlyContinue
-
       - uses: actions/upload-artifact@v4
         with:
           name: windows
@@ -149,7 +140,6 @@ jobs:
           find artifacts -name "*.tar.gz" -o -name "*.zip" | while read file; do
             cp "$file" release/
           done
-
       - name: List downloaded artifacts (debug)
         run: find release -type f -ls
 
@@ -163,8 +153,7 @@ jobs:
 
       - name: Sign Artifacts
         run: |
-          find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
-
+          find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign --passphrase "$GPG_PASSPHRASE" {} \;
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -172,21 +161,16 @@ jobs:
           name: "LoggerHeads ${{ github.ref_name }}"
           body: |
             🎉 LoggerHeads ${{ github.ref_name }} Released!
-
             Signed with GPG Key ID: `4A3629C90B57475B`
-
             ## Artifacts
             - Linux, Windows, macOS binaries (archived) + signatures
-
             ## Download & Verify
             ```bash
             # Download the archive for your platform
             wget https://github.com/6amson/loggerheads/releases/download/${{ github.ref_name }}/loggerheads-linux.tar.gz
-
             # Verify signature
             gpg --keyserver keyserver.ubuntu.com --recv-keys 4A3629C90B57475B
             gpg --verify loggerheads-linux.tar.gz.asc loggerheads-linux.tar.gz
-
             # Extract and use
             tar -xzf loggerheads-linux.tar.gz
             ./loggerheads-linux --help
