@@ -153,11 +153,7 @@ jobs:
 
       - name: Sign Artifacts
         run: |
-          for file in release/*.tar.gz release/*.zip; do
-          [  -e "$file" ] || continue
-          gpg --batch --yes --armor --detach-sign "$file"
-          done
-
+          find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -180,10 +176,6 @@ jobs:
             ./loggerheads-linux --help
             ```
           files: |
-            release/*.tar.gz
-            release/*.zip
-            release/*.tar.gz.asc
-            release/*.zip.asc
-
+            release/*
         env:
           GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
