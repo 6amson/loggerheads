@@ -89,7 +89,6 @@ loggerheads-[platform] [OPTIONS]
 ### Example
 ```bash
 ./loggerheads-linux \
-  --log-path ./logs \
   --interval 5 \
   --cpu-threshold 30 \
   --watcher-dir /tmp \
@@ -115,7 +114,7 @@ loggerheads-[platform] [OPTIONS]
 ## 🧪 Build From Source (Optional)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loggerheads.git
+git clone https://github.com/6amson/loggerheads.git
 cd loggerheads
 cargo build --release
 ```
