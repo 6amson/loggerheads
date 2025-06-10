@@ -153,7 +153,9 @@ jobs:
 
       - name: Sign Artifacts
         run: |
-          find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign {} \;
+          find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign --passphrase "$GPG_PASSPHRASE" {} \;
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
