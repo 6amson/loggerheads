@@ -246,7 +246,7 @@ jobs:
           Copy-Item -Path "target\x86_64-pc-windows-msvc\release\loggerheads.exe" -Destination "dist\"
 
           # Create README for Windows users
-          @"
+          $content = @"
           LoggerHeads Windows Binary
           ==========================
 
@@ -275,7 +275,8 @@ jobs:
           - If you get permission errors, try running as Administrator
           - Make sure you're on Windows 10/11 x64
           - Check that Windows Defender isn't blocking the executable
-          "@ | Out-File -FilePath "dist\README.txt" -Encoding UTF8
+          "@ 
+              $content | Out-File -FilePath "dist\README.txt" -Encoding UTF8
 
       - name: Create archive
         run: Compress-Archive -Path "dist\*" -DestinationPath "dist\loggerheads-windows.zip"
