@@ -155,7 +155,7 @@ jobs:
         run: |
           find release -type f \( -name "*.zip" -o -name "*.tar.gz" \) -exec gpg --batch --yes --armor --detach-sign --passphrase "$GPG_PASSPHRASE" {} \;
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2.3.0
         with:
           tag_name: ${{ github.ref }}
           name: "LoggerHeads ${{ github.ref_name }}"
